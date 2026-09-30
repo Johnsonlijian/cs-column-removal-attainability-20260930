@@ -1,0 +1,5 @@
+asset,kind,location,redistribution,notes
+final_capacity_pattern_gate.json,derived result,data/final_capacity_pattern_gate.json,included,synthetic deterministic first-order ensemble and treatments
+independent_oracle_audit.json,derived audit,data/independent_oracle_audit.json,included,separate per-scenario and LP closure checks
+public_source_manifest.json,source manifest,data/public_source_manifest.json,included,hashes and line locators for third-party source files
+SAC/Elkady-Lignos public frames,third-party benchmark,original source paths in manifest,not redistributed,used only for bounded nonlinear control

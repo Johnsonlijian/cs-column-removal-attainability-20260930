@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Exact attainability certificate for column-removal screens"
+type: software
+message: "If you use this code or derived outputs, cite the associated manuscript."
+authors:
+  - family-names: Ren
+    given-names: Lijian
+    affiliation: Inner Mongolia University of Technology
+    email: renlijian@imut.edu.cn
+version: 2026.09.30
+license: MIT
+repository-code: "https://github.com/Johnsonlijian/cs-column-removal-attainability-20260930"
+keywords:
+  - column removal
+  - rigid-plastic limit analysis
+  - computational mechanics
+  - progressive collapse

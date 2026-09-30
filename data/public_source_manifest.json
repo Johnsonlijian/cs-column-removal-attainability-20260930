@@ -1,0 +1,188 @@
+{
+  "files": [
+    {
+      "bytes": 31873,
+      "line_count": 486,
+      "line_hits": {
+        "building_grid": [
+          122,
+          123,
+          124,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ],
+        "main_column_load": [
+          379,
+          380,
+          383,
+          384
+        ],
+        "spring_imk": [
+          234,
+          235,
+          241,
+          242,
+          243,
+          244
+        ],
+        "story_and_bay": [
+          66,
+          67
+        ]
+      },
+      "path": "data_raw/jse_sac_frames/OpenSEES_Models_SMF/Models and Tcl Files/SMF2B.tcl",
+      "sha256": "9f07a52323755dbd406e0244ec2b23a04a308b2ebddebeb3aba2489ebf34a6f6"
+    },
+    {
+      "bytes": 48354,
+      "line_count": 568,
+      "line_hits": {
+        "building_grid": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135
+        ],
+        "main_column_load": [
+          456,
+          457,
+          458,
+          459,
+          462,
+          463,
+          464,
+          465
+        ],
+        "spring_imk": [
+          267,
+          268,
+          269,
+          270,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283
+        ],
+        "story_and_bay": [
+          66,
+          67
+        ]
+      },
+      "path": "data_raw/jse_sac_frames/OpenSEES_Models_SMF/Models and Tcl Files/SMF4B.tcl",
+      "sha256": "b4041d6d625bf3ae88291b6e37d099ec0998036acfdbc9e18ea3c92a9c4654f3"
+    },
+    {
+      "bytes": 81585,
+      "line_count": 735,
+      "line_hits": {
+        "building_grid": [
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143
+        ],
+        "main_column_load": [
+          609,
+          610,
+          611,
+          612,
+          613,
+          614,
+          615,
+          616,
+          619,
+          620,
+          621,
+          622,
+          623,
+          624,
+          625,
+          626
+        ],
+        "spring_imk": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361
+        ],
+        "story_and_bay": [
+          66,
+          67
+        ]
+      },
+      "path": "data_raw/jse_sac_frames/OpenSEES_Models_SMF/Models and Tcl Files/SMF8B.tcl",
+      "sha256": "c527df939d79468d9e82837ab914de8daee274f2df12d1c17b4032126371dd7b"
+    },
+    {
+      "bytes": 14673,
+      "line_count": 461,
+      "path": "data_raw/jse_sac_adapter_all_diag/frame_SMF2B.json",
+      "sha256": "d0ae9a6507e09bba383a875172a8b32e7b82da21ed34bab82844ec87ee4520ee"
+    },
+    {
+      "bytes": 32022,
+      "line_count": 975,
+      "path": "data_raw/jse_sac_adapter_all_diag/frame_SMF4B.json",
+      "sha256": "47647defb66533ce8eff1c0a02f32c69e52fdfefd222ffadd258f14f2164ca9a"
+    },
+    {
+      "bytes": 66207,
+      "line_count": 2003,
+      "path": "data_raw/jse_sac_adapter_all_diag/frame_SMF8B.json",
+      "sha256": "4fa3f8c684c8b05bb53e49507780db9b5f8163dffed1d71ce0082a698cbdcbb2"
+    }
+  ],
+  "interpretation_boundary": [
+    "Tcl source is the provenance for geometry and Spring_IMK input values.",
+    "Adapter JSON is an idealized grid model and does not preserve panel-zone/RBS/helper topology.",
+    "OpenSees control output is discovery-level and not calibrated external validation."
+  ],
+  "scope": "public SAC/Elkady-Lignos source Tcl and local adapter JSON used for the bounded nonlinear control",
+  "status": "source_traceability_manifest"
+}

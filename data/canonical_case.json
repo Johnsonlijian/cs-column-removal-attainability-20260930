@@ -1,0 +1,377 @@
+{
+  "model": "H=2, B=1; all baseline beam/column end moments (1, 5)",
+  "mechanical_prediction": "for removal (1,1), local=4k and complete=min(4k,5)",
+  "rows": [
+    {
+      "k": 1.0,
+      "n_fail": 0,
+      "min_ratio": 1.0,
+      "max_gap": 0.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 4.0,
+          "kinematic": 4.0,
+          "static": 4.0,
+          "local": 4.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 4.0,
+          "kinematic": 4.0,
+          "static": 4.0,
+          "local": 4.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 2.0,
+          "kinematic": 2.0,
+          "static": 2.0,
+          "local": 2.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 2.0,
+          "kinematic": 2.0,
+          "static": 2.0,
+          "local": 2.0,
+          "static_duality_residual": 0.0
+        }
+      ]
+    },
+    {
+      "k": 1.25,
+      "n_fail": 0,
+      "min_ratio": 1.0,
+      "max_gap": 0.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 5.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 5.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 2.5,
+          "kinematic": 2.5,
+          "static": 2.5,
+          "local": 2.5,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 2.5,
+          "kinematic": 2.5,
+          "static": 2.5,
+          "local": 2.5,
+          "static_duality_residual": 0.0
+        }
+      ]
+    },
+    {
+      "k": 1.5,
+      "n_fail": 1,
+      "min_ratio": 0.8333333333333334,
+      "max_gap": 1.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 6.0,
+          "kinematic": 6.0,
+          "static": 6.0,
+          "local": 6.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 6.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 3.0,
+          "kinematic": 3.0,
+          "static": 3.0,
+          "local": 3.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 3.0,
+          "kinematic": 3.0,
+          "static": 3.0,
+          "local": 3.0,
+          "static_duality_residual": 0.0
+        }
+      ]
+    },
+    {
+      "k": 2.0,
+      "n_fail": 1,
+      "min_ratio": 0.625,
+      "max_gap": 3.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 8.0,
+          "kinematic": 8.0,
+          "static": 8.0,
+          "local": 8.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 8.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 4.0,
+          "kinematic": 4.0,
+          "static": 4.0,
+          "local": 4.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 4.0,
+          "kinematic": 4.0,
+          "static": 4.0,
+          "local": 4.0,
+          "static_duality_residual": 0.0
+        }
+      ]
+    },
+    {
+      "k": 3.0,
+      "n_fail": 1,
+      "min_ratio": 0.4166666666666667,
+      "max_gap": 7.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 12.0,
+          "kinematic": 12.0,
+          "static": 12.0,
+          "local": 12.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 12.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 6.0,
+          "kinematic": 6.0,
+          "static": 6.0,
+          "local": 6.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 6.0,
+          "kinematic": 6.0,
+          "static": 6.0,
+          "local": 6.0,
+          "static_duality_residual": 0.0
+        }
+      ]
+    },
+    {
+      "k": 5.0,
+      "n_fail": 1,
+      "min_ratio": 0.25,
+      "max_gap": 15.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 20.0,
+          "kinematic": 20.0,
+          "static": 20.0,
+          "local": 20.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 20.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 10.0,
+          "kinematic": 10.0,
+          "static": 10.0,
+          "local": 10.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 10.0,
+          "kinematic": 10.0,
+          "static": 10.0,
+          "local": 10.0,
+          "static_duality_residual": 0.0
+        }
+      ]
+    },
+    {
+      "k": 10.0,
+      "n_fail": 1,
+      "min_ratio": 0.125,
+      "max_gap": 35.0,
+      "batch_max_abs": 0.0,
+      "checks": [
+        {
+          "removal": [
+            1,
+            0
+          ],
+          "chain": 40.0,
+          "kinematic": 40.0,
+          "static": 40.0,
+          "local": 40.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            1,
+            1
+          ],
+          "chain": 5.0,
+          "kinematic": 5.0,
+          "static": 5.0,
+          "local": 40.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            0
+          ],
+          "chain": 20.0,
+          "kinematic": 20.0,
+          "static": 20.0,
+          "local": 20.0,
+          "static_duality_residual": 0.0
+        },
+        {
+          "removal": [
+            2,
+            1
+          ],
+          "chain": 20.0,
+          "kinematic": 20.0,
+          "static": 20.0,
+          "local": 20.0,
+          "static_duality_residual": 0.0
+        }
+      ]
+    }
+  ]
+}

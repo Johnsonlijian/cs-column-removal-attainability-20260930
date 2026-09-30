@@ -1,0 +1,248 @@
+{
+  "audited_instances": 156474,
+  "baseline_clean_frames": 2026,
+  "frames_seen": 2880,
+  "lp_checks": [
+    {
+      "chain": 22.75957891223706,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 3.552713678800501e-15,
+      "frame": "final_balanced_equal_H2_B2_seed942604593",
+      "kinematic": 22.75957891223706,
+      "removal": [
+        1,
+        0
+      ],
+      "static": 22.759578912237064,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 2.304923376347966,
+      "chain_kinematic_residual": 4.440892098500626e-16,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed942604593",
+      "kinematic": 2.3049233763479657,
+      "removal": [
+        2,
+        1
+      ],
+      "static": 2.304923376347966,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 6.772283324276561,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 8.881784197001252e-16,
+      "frame": "final_balanced_equal_H2_B2_seed124720642",
+      "kinematic": 6.772283324276561,
+      "removal": [
+        1,
+        2
+      ],
+      "static": 6.77228332427656,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 4.14518205524081,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed124720642",
+      "kinematic": 4.14518205524081,
+      "removal": [
+        2,
+        0
+      ],
+      "static": 4.14518205524081,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 16.333497633917293,
+      "chain_kinematic_residual": 3.552713678800501e-15,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed221280304",
+      "kinematic": 16.33349763391729,
+      "removal": [
+        1,
+        1
+      ],
+      "static": 16.333497633917293,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 1.353291963360247,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed221280304",
+      "kinematic": 1.353291963360247,
+      "removal": [
+        2,
+        2
+      ],
+      "static": 1.353291963360247,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 17.105987790380574,
+      "chain_kinematic_residual": 3.552713678800501e-15,
+      "chain_static_residual": 3.552713678800501e-15,
+      "frame": "final_balanced_equal_H2_B2_seed2918210781",
+      "kinematic": 17.105987790380578,
+      "removal": [
+        1,
+        0
+      ],
+      "static": 17.105987790380578,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 5.354399491367349,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 8.881784197001252e-16,
+      "frame": "final_balanced_equal_H2_B2_seed2918210781",
+      "kinematic": 5.354399491367349,
+      "removal": [
+        2,
+        1
+      ],
+      "static": 5.3543994913673485,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 16.402901665820313,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 3.552713678800501e-15,
+      "frame": "final_balanced_equal_H2_B2_seed303286545",
+      "kinematic": 16.402901665820313,
+      "removal": [
+        1,
+        2
+      ],
+      "static": 16.402901665820316,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 0.5962136324595617,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed303286545",
+      "kinematic": 0.5962136324595617,
+      "removal": [
+        2,
+        0
+      ],
+      "static": 0.5962136324595617,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 16.536294024989814,
+      "chain_kinematic_residual": 3.552713678800501e-15,
+      "chain_static_residual": 3.552713678800501e-15,
+      "frame": "final_balanced_equal_H2_B2_seed2165324788",
+      "kinematic": 16.536294024989818,
+      "removal": [
+        1,
+        1
+      ],
+      "static": 16.536294024989818,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 1.3585443784394169,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed2165324788",
+      "kinematic": 1.3585443784394169,
+      "removal": [
+        2,
+        2
+      ],
+      "static": 1.3585443784394169,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 11.99099620915225,
+      "chain_kinematic_residual": 1.7763568394002505e-15,
+      "chain_static_residual": 1.7763568394002505e-15,
+      "frame": "final_balanced_equal_H2_B2_seed3945631508",
+      "kinematic": 11.990996209152248,
+      "removal": [
+        1,
+        0
+      ],
+      "static": 11.990996209152248,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 2.4857055766344027,
+      "chain_kinematic_residual": 4.440892098500626e-16,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed3945631508",
+      "kinematic": 2.485705576634403,
+      "removal": [
+        2,
+        1
+      ],
+      "static": 2.4857055766344027,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 12.751868462192572,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed3062401570",
+      "kinematic": 12.751868462192572,
+      "removal": [
+        1,
+        2
+      ],
+      "static": 12.751868462192572,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 0.9092158380878854,
+      "chain_kinematic_residual": 1.1102230246251565e-16,
+      "chain_static_residual": 0.0,
+      "frame": "final_balanced_equal_H2_B2_seed3062401570",
+      "kinematic": 0.9092158380878853,
+      "removal": [
+        2,
+        0
+      ],
+      "static": 0.9092158380878854,
+      "treatment": "geometric_mean_one_redistribution"
+    },
+    {
+      "chain": 16.794192345719203,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 3.552713678800501e-15,
+      "frame": "final_balanced_equal_H2_B2_seed2738016992",
+      "kinematic": 16.794192345719203,
+      "removal": [
+        1,
+        1
+      ],
+      "static": 16.7941923457192,
+      "treatment": "componentwise_strengthening"
+    },
+    {
+      "chain": 3.774487995806393,
+      "chain_kinematic_residual": 0.0,
+      "chain_static_residual": 8.881784197001252e-16,
+      "frame": "final_balanced_equal_H2_B2_seed2738016992",
+      "kinematic": 3.774487995806393,
+      "removal": [
+        2,
+        2
+      ],
+      "static": 3.774487995806394,
+      "treatment": "geometric_mean_one_redistribution"
+    }
+  ],
+  "lp_max_chain_kinematic_residual": 3.552713678800501e-15,
+  "lp_max_chain_static_residual": 3.552713678800501e-15,
+  "max_abs_log_product_error": 4.163336342344337e-15,
+  "max_batch_vs_scenario_full_relative_error": 8.058828697711173e-16,
+  "max_batch_vs_scenario_local_relative_error": 7.713985354072916e-16,
+  "note": "Independent per-scenario Scenario chain audit against the batched sweep; LP checks are stratified witnesses.",
+  "status": "PASS"
+}
