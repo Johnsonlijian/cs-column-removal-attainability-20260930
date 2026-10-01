@@ -25,6 +25,8 @@ python scripts/make_transition_figure.py
 python scripts/make_public_control_figure.py
 ```
 
+In the frozen treatments, each member factor multiplies both endpoint moment capacities; the random factor vector is memberwise.
+
 The exact model and frozen outputs are dimensionless. See
 `data/final_capacity_pattern_gate.json` and
 `data/independent_oracle_audit.json` for the stored results.

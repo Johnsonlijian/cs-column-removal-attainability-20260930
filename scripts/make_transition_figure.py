@@ -73,7 +73,7 @@ def main():
     a.text(.04, .07, r"$\lambda_L=4k$; $\lambda_F=\min(4k,5)$", transform=a.transAxes, fontsize=8)
     z1 = aggregate(p, "componentwise_strengthening", Hs, Bs)
     z2 = aggregate(p, "geometric_mean_one_redistribution", Hs, Bs)
-    im1 = heat(ax[0, 1], z1, Hs, Bs, "(b) Componentwise strengthening")
+    im1 = heat(ax[0, 1], z1, Hs, Bs, "(b) Memberwise strengthening")
     im2 = heat(ax[1, 0], z2, Hs, Bs, "(c) Exact product-one redistribution")
     fig.colorbar(im1, ax=ax[0, 1], fraction=.046, pad=.04, label="new-gap frame fraction")
     fig.colorbar(im2, ax=ax[1, 0], fraction=.046, pad=.04, label="new-gap frame fraction")
