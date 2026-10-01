@@ -241,8 +241,8 @@
   "lp_max_chain_kinematic_residual": 3.552713678800501e-15,
   "lp_max_chain_static_residual": 3.552713678800501e-15,
   "max_abs_log_product_error": 4.163336342344337e-15,
-  "max_batch_vs_scenario_full_relative_error": 8.058828697711173e-16,
-  "max_batch_vs_scenario_local_relative_error": 7.713985354072916e-16,
-  "note": "Independent per-scenario Scenario chain audit against the batched sweep; LP checks are stratified witnesses.",
+  "max_batch_vs_scenario_full_relative_error": 1.070241970449152e-15,
+  "max_batch_vs_scenario_local_relative_error": 8.43865048626396e-16,
+  "note": "Separate per-scenario Scenario chain audit against the batched sweep; the LP checks use independent kinematic and static formulations.",
   "status": "PASS"
 }

@@ -44,6 +44,10 @@ class BatchSweep:
             raise ValueError('positive member scales required')
         self.x = x
         H, B = frame.H, frame.B
+        # One lookup per column makes incidence corrections constant-time.
+        self._column_ids = {
+            (m[1], m[2]): k for k, m in enumerate(frame.members) if m[0] == 'c'
+        }
         # member end capacities, ORIGINAL member indexing (same convention as
         # engine.Scenario: mcap = m0 * x[ids]); member = [kind, story, grid, Mi, Mj, Np, w]
         self.mcap = np.array([[m[3], m[4]] for m in frame.members], float) * x[:, None]
@@ -66,6 +70,16 @@ class BatchSweep:
         spans = np.asarray(frame.spans, float)
         self.spans = spans
         self.H, self.B = H, B
+
+        # The demand denominator is a suffix sum over story loads.  Precompute
+        # it once so the complete all-removal sweep is O(HB) after the band
+        # potentials and prefix/suffix chains have been built.
+        loads = np.asarray(frame.loads, float)
+        self._suffix_demand = np.zeros_like(loads)
+        running = np.zeros(loads.shape[1], dtype=float)
+        for r in reversed(range(H)):
+            running = running + loads[r]
+            self._suffix_demand[r] = running
 
         # node bookkeeping per node: beams (k,e) and columns below/above (k,e)
         self.node_beams = {n: [(k, e) for k, e in inc[n] if frame.members[k][0] == 'b'] for n in inc}
@@ -200,10 +214,7 @@ class BatchSweep:
         return B0, out, floor_v
 
     def _removed_id(self, s, g):
-        for k, m in enumerate(self.f.members):
-            if m[0] == 'c' and m[1] == s and m[2] == g:
-                return k
-        raise KeyError('removed column not found')
+        return self._column_ids[(s, g)]
 
     def _split(self, q, j, tot_beam, node, k_rem):
         ends = self.node_beams[node]
@@ -228,7 +239,7 @@ class BatchSweep:
         out = np.zeros((self.H, self.B + 1))
         for s in range(1, self.H + 1):
             for g in range(self.B + 1):
-                D = sum(f.loads[r - 1][g] for r in range(s, self.H + 1))
+                D = float(self._suffix_demand[s - 1, g])
                 total = 0.
                 for j, width, q in self._sides(g):
                     if local:

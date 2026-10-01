@@ -8,3 +8,5 @@ The public nonlinear control is distributed only as a frozen derived output
 and figure. Its third-party raw source files and original OpenSeesPy adapter
 are not redistributed; `data/public_source_manifest.json` records the source
 paths, line locators and hashes used in the local control.
+
+The complete all-removal batched sweep is O(HB) for a fixed capacity vector after shared band potentials and prefix/suffix caches are built; local-screen values and independent audit values are computed through separate paths.

@@ -27,6 +27,8 @@ python scripts/make_public_control_figure.py
 
 In the frozen treatments, each member factor multiplies both endpoint moment capacities; the random factor vector is memberwise.
 
+For a fixed capacity vector, the prefix/suffix sweep evaluates the complete chain value at all H(B+1) removal positions in O(HB) arithmetic after the shared band potentials and chain caches are built. The separate local-screen path is intentionally audited independently.
+
 The exact model and frozen outputs are dimensionless. See
 `data/final_capacity_pattern_gate.json` and
 `data/independent_oracle_audit.json` for the stored results.
