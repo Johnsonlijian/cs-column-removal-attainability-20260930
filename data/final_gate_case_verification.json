@@ -1,15 +1,15 @@
 {
   "baseline_full": 4.270709701714774,
   "baseline_local": 4.270709701714774,
-  "chain_kinematic_residual": 0.0,
-  "chain_static_residual": 3.552713678800501e-15,
+  "chain_kinematic_residual": 8.881784197001252e-16,
+  "chain_static_residual": 2.6645352591003757e-15,
   "frame": "final_weak_base_equal_H2_B2_seed1409716476",
-  "full_chain_capacity": 11.580613899044884,
+  "full_chain_capacity": 7.203674423166057,
   "group": "weak_base|equal|H2|B2",
   "interpretation": "synthetic frozen-gate witness; all component factors >=1; not a universal retrofit claim",
-  "kinematic_capacity": 11.580613899044884,
+  "kinematic_capacity": 7.203674423166058,
   "local_capacity": 15.313879346172119,
-  "minimum_interval_margin": -3.9299123219094776,
+  "minimum_interval_margin": -8.5374037050214,
   "multipliers": [
     1.1600194174292109,
     3.8034855404070225,
@@ -28,8 +28,8 @@
     1,
     2
   ],
-  "static_duality_residual": 3.552713678800501e-15,
-  "static_equilibrium_residual": 1.7763568394002505e-15,
-  "static_strip_capacity": 11.580613899044888,
-  "static_yield_residual": 0.0
+  "static_duality_residual": 0.0,
+  "static_equilibrium_residual": 4.440892098500626e-15,
+  "static_strip_capacity": 7.20367442316606,
+  "static_yield_residual": 4.440892098500626e-16
 }

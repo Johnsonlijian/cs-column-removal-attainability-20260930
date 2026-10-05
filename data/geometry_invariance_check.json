@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-10,
+  "seed": 20261005,
+  "pairs": [
+    [
+      "equal",
+      "unequal_height"
+    ],
+    [
+      "unequal_bay",
+      "combined"
+    ]
+  ],
+  "checked_pair_treatments": 4320,
+  "max_full_abs_difference": 0.0,
+  "max_local_abs_difference": 0.0,
+  "max_margin_abs_difference": 0.0,
+  "records": [
+    {
+      "H": 2,
+      "B": 1,
+      "regime": "balanced",
+      "seed": 1221588521,
+      "pair": [
+        "equal",
+        "unequal_height"
+      ],
+      "treatment": "homogeneous_k2",
+      "max_full_abs": 0.0,
+      "max_local_abs": 0.0,
+      "max_margin_abs": 0.0
+    },
+    {
+      "H": 2,
+      "B": 1,
+      "regime": "balanced",
+      "seed": 1221588521,
+      "pair": [
+        "equal",
+        "unequal_height"
+      ],
+      "treatment": "componentwise_strengthening",
+      "max_full_abs": 0.0,
+      "max_local_abs": 0.0,
+      "max_margin_abs": 0.0
+    },
+    {
+      "H": 2,
+      "B": 1,
+      "regime": "balanced",
+      "seed": 1221588521,
+      "pair": [
+        "equal",
+        "unequal_height"
+      ],
+      "treatment": "geometric_mean_one_redistribution",
+      "max_full_abs": 0.0,
+      "max_local_abs": 0.0,
+      "max_margin_abs": 0.0
+    },
+    {
+      "H": 2,
+      "B": 1,
+      "regime": "balanced",
+      "seed": 1221588521,
+      "pair": [
+        "unequal_bay",
+        "combined"
+      ],
+      "treatment": "homogeneous_k2",
+      "max_full_abs": 0.0,
+      "max_local_abs": 0.0,
+      "max_margin_abs": 0.0
+    },
+    {
+      "H": 2,
+      "B": 1,
+      "regime": "balanced",
+      "seed": 1221588521,
+      "pair": [
+        "unequal_bay",
+        "combined"
+      ],
+      "treatment": "componentwise_strengthening",
+      "max_full_abs": 0.0,
+      "max_local_abs": 0.0,
+      "max_margin_abs": 0.0
+    },
+    {
+      "H": 2,
+      "B": 1,
+      "regime": "balanced",
+      "seed": 1221588521,
+      "pair": [
+        "unequal_bay",
+        "combined"
+      ],
+      "treatment": "geometric_mean_one_redistribution",
+      "max_full_abs": 0.0,
+      "max_local_abs": 0.0,
+      "max_margin_abs": 0.0
+    }
+  ],
+  "interpretation": "Positive story-height changes leave dimensionless capacities, local/full values and interval margins invariant in the stated first-order chord-rate model; recovered horizontal displacements may change."
+}

@@ -28,6 +28,33 @@ def compare(a: np.ndarray, b: np.ndarray) -> float:
     return float(np.max(np.abs(a - b) / np.maximum(1.0, np.abs(b))))
 
 
+def _lp_removal(H: int, B: int, ordinal: int) -> tuple[int, int]:
+    """Deterministic boundary/interior coverage for the independent LP lane."""
+    if ordinal % 3 == 0:
+        return 1, 0
+    if ordinal % 3 == 1:
+        return H, B
+    return (1 if B == 1 else H), (0 if B == 1 else B // 2)
+
+
+def _lp_record(sc: Scenario, x: np.ndarray, frame_name: str, treatment: str,
+               removal: tuple[int, int], clean_frame: bool) -> dict:
+    chain = sc.chain(x, local=False)["capacity"]
+    kin = sc.kinematic(x, local=False)["capacity"]
+    stat = sc.static(x, domain="strip")["capacity"]
+    return {
+        "frame": frame_name,
+        "treatment": treatment,
+        "removal": [int(removal[0]), int(removal[1])],
+        "clean_frame": bool(clean_frame),
+        "chain": float(chain),
+        "kinematic": float(kin),
+        "static": float(stat),
+        "chain_kinematic_objective_gap": float(abs(chain - kin)),
+        "chain_static_objective_gap": float(abs(chain - stat)),
+    }
+
+
 def main() -> None:
     rng = np.random.default_rng(SEED)
     clean_frames = 0
@@ -37,6 +64,9 @@ def main() -> None:
     max_local = 0.0
     max_product_log_sum = 0.0
     static_checks = []
+    lp_pair_quota = {(2, 1): 3, (2, 2): 3, (2, 4): 3,
+                     (4, 1): 2, (4, 2): 2, (8, 3): 3, (12, 4): 2}
+    lp_pair_count = {key: 0 for key in lp_pair_quota}
     margin_count = 0
     for H in H_VALUES:
         for B in B_VALUES:
@@ -50,7 +80,20 @@ def main() -> None:
                         base_local = bs0.capacities(local=True)
                         clean = np.abs(base_full - base_local) <= np.maximum(1.0e-8, 1.0e-8 * np.abs(base_local))
                         frames_seen += 1
-                        if not bool(np.all(clean)):
+                        frame_clean = bool(np.all(clean))
+                        pair = (H, B)
+                        # Include non-clean baseline cases in the independent
+                        # LP lane. This is separate from the conditional
+                        # transition denominator.
+                        if (not frame_clean and pair in lp_pair_quota
+                                and lp_pair_count[pair] < lp_pair_quota[pair]
+                                and len(static_checks) < 18):
+                            removal = _lp_removal(H, B, lp_pair_count[pair])
+                            static_checks.append(_lp_record(
+                                Scenario(f, removal), np.ones(f.E), f.name,
+                                "baseline", removal, False))
+                            lp_pair_count[pair] += 1
+                        if not frame_clean:
                             continue
                         clean_frames += 1
                         vecs = treatment_vectors(f, rng)
@@ -70,25 +113,16 @@ def main() -> None:
                                     instances += 1
                             max_full = max(max_full, compare(fast_full, slow_full))
                             max_local = max(max_local, compare(fast_local, slow_local))
-                            if len(static_checks) < 18 and treatment != "homogeneous_k2":
-                                # Stratified independent LP checks; these are
-                                # deliberately not the selected best witness.
-                                s = 1 + (len(static_checks) % H)
-                                g = len(static_checks) % (B + 1)
-                                sc = Scenario(f, (s, g))
-                                chain = sc.chain(x, local=False)["capacity"]
-                                kin = sc.kinematic(x, local=False)["capacity"]
-                                stat = sc.static(x, domain="strip")["capacity"]
-                                static_checks.append({
-                                    "frame": f.name,
-                                    "treatment": treatment,
-                                    "removal": [s, g],
-                                    "chain": float(chain),
-                                    "kinematic": float(kin),
-                                    "static": float(stat),
-                                    "chain_kinematic_residual": float(abs(chain - kin)),
-                                    "chain_static_residual": float(abs(chain - stat)),
-                                })
+                            pair = (H, B)
+                            if (len(static_checks) < 18
+                                    and treatment != "homogeneous_k2"
+                                    and pair in lp_pair_quota
+                                    and lp_pair_count[pair] < lp_pair_quota[pair]):
+                                removal = _lp_removal(H, B, lp_pair_count[pair])
+                                static_checks.append(_lp_record(
+                                    Scenario(f, removal), x, f.name,
+                                    treatment, removal, True))
+                                lp_pair_count[pair] += 1
                         # Preserve the original gate's random stream: these
                         # draws generated the bounded margin sample and affect
                         # subsequent frame seeds.
@@ -109,9 +143,15 @@ def main() -> None:
         "max_batch_vs_scenario_local_relative_error": max_local,
         "max_abs_log_product_error": max_product_log_sum,
         "lp_checks": static_checks,
-        "lp_max_chain_kinematic_residual": max((x["chain_kinematic_residual"] for x in static_checks), default=0.0),
-        "lp_max_chain_static_residual": max((x["chain_static_residual"] for x in static_checks), default=0.0),
-        "note": "Separate per-scenario Scenario chain audit against the batched sweep; the LP checks use independent kinematic and static formulations.",
+        "lp_max_chain_kinematic_objective_gap": max((x["chain_kinematic_objective_gap"] for x in static_checks), default=0.0),
+        "lp_max_chain_static_objective_gap": max((x["chain_static_objective_gap"] for x in static_checks), default=0.0),
+        "lp_coverage": {
+            "checks": len(static_checks),
+            "clean_frame_checks": sum(bool(x["clean_frame"]) for x in static_checks),
+            "nonclean_frame_checks": sum(not bool(x["clean_frame"]) for x in static_checks),
+            "by_height_bay": {f"{H}x{B}": int(lp_pair_count[(H, B)]) for H, B in lp_pair_quota},
+        },
+        "note": "Separate per-scenario Scenario chain audit against the batched sweep; LP entries report objective-value differences between the chain and independent kinematic/static programs, not equilibrium residuals, inequality violations, or primal-dual gaps.",
     }
     (DATA / "independent_oracle_audit.json").write_text(json.dumps(out, indent=2, sort_keys=True), encoding="utf-8")
     print(json.dumps(out, indent=2, sort_keys=True))

@@ -1,8 +1,8 @@
-# Exact attainability certificate for column-removal screens
+# Exactness certificates and capacity-pattern boundaries
 
 This repository contains the public reproducibility layer for the manuscript
-“Local optimality is not global attainability after column removal: Exact
-certificates and capacity-pattern transitions in planar moment frames”.
+“Exactness certificates and capacity-pattern boundaries for zero-sway
+column-removal limits in planar frames”.
 
 The code implements the bundled first-order planar frame engine, the batched
 story-chain sweep, the corrected frozen capacity-pattern gate, the separate
@@ -20,6 +20,7 @@ python scripts/canonical_case.py
 python scripts/final_capacity_pattern_gate.py
 python scripts/independent_oracle_audit.py
 python scripts/verify_final_gate_case.py
+python scripts/geometry_invariance_check.py
 python scripts/make_mechanism_figure.py
 python scripts/make_transition_figure.py
 python scripts/make_public_control_figure.py
@@ -29,6 +30,6 @@ In the frozen treatments, each member factor multiplies both endpoint moment cap
 
 For a fixed capacity vector, the prefix/suffix sweep evaluates the complete chain value at all H(B+1) removal positions in O(HB) arithmetic after the shared band potentials and chain caches are built. The separate local-screen path is intentionally audited independently.
 
-The exact model and frozen outputs are dimensionless. See
+The exact model and frozen outputs are dimensionless. The geometry check verifies invariance of dimensionless capacities and margins under positive story-height changes with spans, capacities, loads and topology fixed. See
 `data/final_capacity_pattern_gate.json` and
 `data/independent_oracle_audit.json` for the stored results.

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -11,7 +10,41 @@ PACKAGE = ROOT.parent
 sys.path.insert(0, str(PACKAGE / "scripts" / "code"))
 
 from engine import Scenario  # noqa: E402
-from final_capacity_pattern_gate import controlled_frame, min_interval_margin  # noqa: E402
+from final_capacity_pattern_gate import (  # noqa: E402
+    GEOMETRIES,
+    REGIMES,
+    controlled_frame,
+    min_interval_margin,
+)
+
+
+def _parse_frame_name(name: str) -> tuple[str, str, int, int, int]:
+    """Parse seeded frame names without splitting the weak_base regime incorrectly."""
+    prefix = "final_"
+    if not name.startswith(prefix):
+        raise ValueError(f"cannot parse frame name: {name}")
+    rest = name[len(prefix):]
+    for regime in REGIMES:
+        regime_prefix = regime + "_"
+        if not rest.startswith(regime_prefix):
+            continue
+        tail = rest[len(regime_prefix):]
+        for geometry in GEOMETRIES:
+            geometry_prefix = geometry + "_H"
+            if not tail.startswith(geometry_prefix):
+                continue
+            suffix = tail[len(geometry_prefix):]
+            parts = suffix.split("_B", 1)
+            if len(parts) != 2:
+                continue
+            H_text, b_seed = parts
+            parts = b_seed.split("_seed", 1)
+            if len(parts) != 2:
+                continue
+            B_text, seed_text = parts
+            if H_text.isdigit() and B_text.isdigit() and seed_text.isdigit():
+                return regime, geometry, int(H_text), int(B_text), int(seed_text)
+    raise ValueError(f"cannot parse frame name: {name}")
 
 
 def main() -> None:
@@ -24,14 +57,10 @@ def main() -> None:
             best = {**case, "group": key}
     if best is None:
         raise SystemExit("no componentwise-strengthening gap case found")
-    match = re.fullmatch(r"final_(?P<regime>[^_]+)_(?P<geometry>.+)_H(?P<H>\d+)_B(?P<B>\d+)_seed(?P<seed>\d+)", best["frame"])
-    if match is None:
-        raise SystemExit(f"cannot parse frame name: {best['frame']}")
-    regime = match.group("regime")
-    geometry = match.group("geometry")
-    H = int(match.group("H"))
-    B = int(match.group("B"))
-    seed = int(match.group("seed"))
+    try:
+        regime, geometry, H, B, seed = _parse_frame_name(best["frame"])
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
     f = controlled_frame(H, B, seed, regime, geometry)
     x = np.asarray(best["multipliers"], dtype=float)
     removal = tuple(best["removal"])
