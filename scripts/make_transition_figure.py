@@ -87,7 +87,7 @@ def main():
     d.set_yscale("log")
     d.set_xlabel("minimum interval margin")
     d.set_ylabel("local minus complete capacity")
-    d.set_title("(d) Certificate separates every audited gap")
+    d.set_title("(d) Archived 6,000-record margin sample")
     d.legend(frameon=False, fontsize=7, loc="upper left")
     fig.suptitle("Capacity patterns can open a global-sway mechanism after local screening passes", fontsize=12, fontweight="bold", y=1.02)
     for ext in ("pdf", "svg", "png"):

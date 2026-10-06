@@ -52,8 +52,8 @@ for h in stories:
             censored_label_used = True
     for ki, censored in zip(k, ratio_censored):
         if censored:
-            label = "censored ratio" if not ratio_censored_label_used else "_nolegend_"
-            axes[1].plot(ki, 0.98, marker="v", ms=8, mfc="white", mec=c,
+            label = "censored pair state" if not ratio_censored_label_used else "_nolegend_"
+            axes[1].plot(ki, 0.435, marker="v", ms=8, mfc="white", mec=c,
                          mew=1.6, linestyle="none", color=c, label=label)
             ratio_censored_label_used = True
 
@@ -68,9 +68,12 @@ axes[1].set_xscale("log")
 axes[1].axhline(1.0, color="0.35", lw=1.2, ls=":")
 axes[1].set_xlabel("multiplier k on all other main members")
 axes[1].set_ylabel("removed / intact limit factor")
-axes[1].set_title("Relative consequence can change direction")
+axes[1].set_title("Paired ratios and load-ceiling censoring")
+axes[1].set_ylim(0.42, 1.08)
 axes[1].grid(True, alpha=0.22)
 axes[1].legend(fontsize=7.6, ncol=2, frameon=False)
+axes[1].text(0.02, 0.01, "open triangles: censored pair state only",
+             transform=axes[1].transAxes, fontsize=7.0, color="0.25")
 fig.suptitle(
     "Source-verified SAC/Elkady–Lignos geometry; bilinear-hinge adapter control",
     fontsize=14,
