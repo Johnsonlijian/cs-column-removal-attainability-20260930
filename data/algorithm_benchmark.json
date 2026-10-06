@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "repeats": 5,
+  "note": "The chain sweep evaluates all scalar complete values for one capacity vector; each static LP solve is an independent HiGHS call for one removal.",
+  "cases": [
+    {
+      "H": 2,
+      "B": 2,
+      "regime": "weak_base",
+      "geometry": "equal",
+      "removals": 6,
+      "chain_seconds_mean": 0.0002543999347835779,
+      "static_lp_seconds_mean": 0.01794734001159668,
+      "speedup_vs_static_lp": 70.54773825655565,
+      "chain_per_removal_us": 42.39998913059632,
+      "static_lp_per_removal_ms": 2.9912233352661133,
+      "max_chain_static_objective_gap": 1.986557410432414e-16
+    },
+    {
+      "H": 4,
+      "B": 3,
+      "regime": "balanced",
+      "geometry": "unequal_bay",
+      "removals": 16,
+      "chain_seconds_mean": 0.000756380008533597,
+      "static_lp_seconds_mean": 0.06130061997100711,
+      "speedup_vs_static_lp": 81.04473846400484,
+      "chain_per_removal_us": 47.27375053334981,
+      "static_lp_per_removal_ms": 3.8312887481879443,
+      "max_chain_static_objective_gap": 3.063073398715042e-16
+    },
+    {
+      "H": 6,
+      "B": 4,
+      "regime": "axial",
+      "geometry": "combined",
+      "removals": 30,
+      "chain_seconds_mean": 0.0015638600569218397,
+      "static_lp_seconds_mean": 0.1653844601009041,
+      "speedup_vs_static_lp": 105.75400232833613,
+      "chain_per_removal_us": 52.12866856406132,
+      "static_lp_per_removal_ms": 5.512815336696804,
+      "max_chain_static_objective_gap": 6.634400555369219e-16
+    },
+    {
+      "H": 8,
+      "B": 4,
+      "regime": "balanced",
+      "geometry": "equal",
+      "removals": 40,
+      "chain_seconds_mean": 0.0021255800500512125,
+      "static_lp_seconds_mean": 0.2608802600298077,
+      "speedup_vs_static_lp": 122.73367922488838,
+      "chain_per_removal_us": 53.13950125128031,
+      "static_lp_per_removal_ms": 6.522006500745192,
+      "max_chain_static_objective_gap": 2.1254062695150088e-16
+    },
+    {
+      "H": 12,
+      "B": 4,
+      "regime": "weak_base",
+      "geometry": "combined",
+      "removals": 60,
+      "chain_seconds_mean": 0.003132919920608401,
+      "static_lp_seconds_mean": 0.5119255799800158,
+      "speedup_vs_static_lp": 163.40206355501155,
+      "chain_per_removal_us": 52.215332010140024,
+      "static_lp_per_removal_ms": 8.53209299966693,
+      "max_chain_static_objective_gap": 6.978786615626258e-16
+    }
+  ],
+  "median_speedup": 105.75400232833613
+}

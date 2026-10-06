@@ -1,0 +1,4403 @@
+{
+  "domain_statement": "diamond means |N|/Np + |M|/Mp <= x as declared in engine.Scenario.yield_matrix; not an AISC interaction formula",
+  "canonical": [
+    {
+      "local_moment": 4.0,
+      "complete_moment": 4.0,
+      "static_strip": 4.0,
+      "static_diamond": 3.1999999999999997,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.20000000000000007,
+      "k": 1.0,
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.0,
+      "complete_moment": 5.0,
+      "static_strip": 5.0,
+      "static_diamond": 4.0,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.2,
+      "k": 1.25,
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.0,
+      "complete_moment": 5.0,
+      "static_strip": 5.0,
+      "static_diamond": 4.166666666666664,
+      "moment_gap": 3.0,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.16666666666666713,
+      "k": 2.0,
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 20.0,
+      "complete_moment": 5.0,
+      "static_strip": 5.0,
+      "static_diamond": 4.166666666666667,
+      "moment_gap": 15.0,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.1666666666666666,
+      "k": 5.0,
+      "removal": [
+        1,
+        1
+      ]
+    }
+  ],
+  "canonical_summary": {
+    "n": 4,
+    "moment_inexact": 2,
+    "moment_exact": 2,
+    "inexact_and_diamond_below_local": 2,
+    "max_relative_diamond_drop": 0.20000000000000007,
+    "median_relative_diamond_drop": 0.18333333333333357
+  },
+  "ensemble_one_removal_per_cell": [
+    {
+      "local_moment": 4.450531251509287,
+      "complete_moment": 3.8769576642917882,
+      "static_strip": 3.8769576642917873,
+      "static_diamond": 3.467281315018692,
+      "moment_gap": 0.5735735872174987,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.10566954420120861,
+      "H": 2,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 0.26175241133191596,
+      "static_strip": 0.2617524113319159,
+      "static_diamond": 0.25145279980909124,
+      "moment_gap": 3.4272983291994965,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03934867866322808,
+      "H": 2,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 1.564068925723857,
+      "static_strip": 1.564068925723857,
+      "static_diamond": 0.9222067370418267,
+      "moment_gap": 2.1249818148075557,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.4103797333515683,
+      "H": 2,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.450531251509287,
+      "complete_moment": 3.8769576642917882,
+      "static_strip": 3.8769576642917873,
+      "static_diamond": 3.467281315018692,
+      "moment_gap": 0.5735735872174987,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.10566954420120861,
+      "H": 2,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 0.26175241133191596,
+      "static_strip": 0.2617524113319159,
+      "static_diamond": 0.25145279980909124,
+      "moment_gap": 3.4272983291994965,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03934867866322808,
+      "H": 2,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 1.564068925723857,
+      "static_strip": 1.564068925723857,
+      "static_diamond": 0.9222067370418267,
+      "moment_gap": 2.1249818148075557,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.4103797333515683,
+      "H": 2,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.450531251509287,
+      "complete_moment": 3.8769576642917882,
+      "static_strip": 3.8769576642917873,
+      "static_diamond": 3.513201766683401,
+      "moment_gap": 0.5735735872174987,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.09382508892441947,
+      "H": 2,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 0.26175241133191596,
+      "static_strip": 0.2617524113319159,
+      "static_diamond": 0.25145279980908153,
+      "moment_gap": 3.4272983291994965,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03934867866326519,
+      "H": 2,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 1.564068925723857,
+      "static_strip": 1.564068925723857,
+      "static_diamond": 0.9222067370418267,
+      "moment_gap": 2.1249818148075557,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.4103797333515683,
+      "H": 2,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.450531251509287,
+      "complete_moment": 3.8769576642917882,
+      "static_strip": 3.8769576642917873,
+      "static_diamond": 3.513201766683401,
+      "moment_gap": 0.5735735872174987,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.09382508892441947,
+      "H": 2,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 0.26175241133191596,
+      "static_strip": 0.2617524113319159,
+      "static_diamond": 0.25145279980908153,
+      "moment_gap": 3.4272983291994965,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03934867866326519,
+      "H": 2,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 3.6890507405314126,
+      "complete_moment": 1.564068925723857,
+      "static_strip": 1.564068925723857,
+      "static_diamond": 0.9222067370418267,
+      "moment_gap": 2.1249818148075557,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.4103797333515683,
+      "H": 2,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.738204347516321,
+      "complete_moment": 4.738204347516321,
+      "static_strip": 4.73820434751632,
+      "static_diamond": 4.668256569846384,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014762507595646812,
+      "H": 2,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.738204347516321,
+      "complete_moment": 4.661498626412876,
+      "static_strip": 4.661498626412875,
+      "static_diamond": 3.585780599379696,
+      "moment_gap": 0.07670572110344498,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.2307665652710849,
+      "H": 2,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.738204347516321,
+      "complete_moment": 4.738204347516321,
+      "static_strip": 4.73820434751632,
+      "static_diamond": 1.4189301838346464,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7005341940183683,
+      "H": 2,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.497005927640381,
+      "complete_moment": 5.497005927640381,
+      "static_strip": 5.497005927640381,
+      "static_diamond": 5.414971114374174,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014923544625214058,
+      "H": 2,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.497005927640381,
+      "complete_moment": 5.378997125942773,
+      "static_strip": 5.378997125942773,
+      "static_diamond": 3.9153144569039147,
+      "moment_gap": 0.11800880169760841,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.2721106992192935,
+      "H": 2,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.497005927640381,
+      "complete_moment": 5.497005927640381,
+      "static_strip": 5.497005927640381,
+      "static_diamond": 1.418930183834648,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7418721750508043,
+      "H": 2,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.738204347516321,
+      "complete_moment": 4.738204347516321,
+      "static_strip": 4.73820434751632,
+      "static_diamond": 4.679972693796584,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.012289814758677563,
+      "H": 2,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.738204347516321,
+      "complete_moment": 4.661498626412876,
+      "static_strip": 4.661498626412875,
+      "static_diamond": 3.6354788225116152,
+      "moment_gap": 0.07670572110344498,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.22010513916868932,
+      "H": 2,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.738204347516321,
+      "complete_moment": 4.738204347516321,
+      "static_strip": 4.73820434751632,
+      "static_diamond": 1.4189301838346462,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7005341940183683,
+      "H": 2,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.497005927640381,
+      "complete_moment": 5.497005927640381,
+      "static_strip": 5.497005927640381,
+      "static_diamond": 5.435022506377981,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.011275851268548015,
+      "H": 2,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.497005927640381,
+      "complete_moment": 5.378997125942773,
+      "static_strip": 5.378997125942773,
+      "static_diamond": 3.963688285330707,
+      "moment_gap": 0.11800880169760841,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.2631176049130172,
+      "H": 2,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.497005927640381,
+      "complete_moment": 5.497005927640381,
+      "static_strip": 5.497005927640381,
+      "static_diamond": 1.418930183834647,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7418721750508043,
+      "H": 2,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.874330462671432,
+      "complete_moment": 4.874330462671432,
+      "static_strip": 4.874330462671431,
+      "static_diamond": 4.832708912493492,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.008538926627294906,
+      "H": 2,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.874330462671432,
+      "complete_moment": 4.874330462671432,
+      "static_strip": 4.874330462671431,
+      "static_diamond": 3.3940682252983576,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.30368524430364524,
+      "H": 2,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.874330462671432,
+      "complete_moment": 4.874330462671432,
+      "static_strip": 4.874330462671431,
+      "static_diamond": 1.4567067666402362,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7011473108366412,
+      "H": 2,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.595290189374564,
+      "complete_moment": 7.595290189374564,
+      "static_strip": 7.595290189374565,
+      "static_diamond": 7.517674244986796,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.010218957071100508,
+      "H": 2,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.595290189374564,
+      "complete_moment": 7.595290189374564,
+      "static_strip": 7.595290189374565,
+      "static_diamond": 4.059072937395824,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.46558026932607977,
+      "H": 2,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.595290189374564,
+      "complete_moment": 7.595290189374564,
+      "static_strip": 7.595290189374565,
+      "static_diamond": 1.561757724753154,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7943781362115728,
+      "H": 2,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.874330462671432,
+      "complete_moment": 4.874330462671432,
+      "static_strip": 4.874330462671431,
+      "static_diamond": 4.8397473178563395,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.007094952851460602,
+      "H": 2,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.874330462671432,
+      "complete_moment": 4.874330462671432,
+      "static_strip": 4.874330462671431,
+      "static_diamond": 3.4204569538167706,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.2982714282481884,
+      "H": 2,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.874330462671432,
+      "complete_moment": 4.874330462671432,
+      "static_strip": 4.874330462671431,
+      "static_diamond": 1.4567067666402356,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7011473108366414,
+      "H": 2,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.595290189374564,
+      "complete_moment": 7.595290189374564,
+      "static_strip": 7.595290189374565,
+      "static_diamond": 7.535382648112987,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.007887459171130325,
+      "H": 2,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.595290189374564,
+      "complete_moment": 7.595290189374564,
+      "static_strip": 7.595290189374565,
+      "static_diamond": 4.087397829201398,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.46185099880456637,
+      "H": 2,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.595290189374564,
+      "complete_moment": 7.595290189374564,
+      "static_strip": 7.595290189374565,
+      "static_diamond": 1.5617577247531536,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7943781362115729,
+      "H": 2,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.666257172849324,
+      "complete_moment": 4.666257172849324,
+      "static_strip": 4.666257172849324,
+      "static_diamond": 4.598493991558024,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014521955987677094,
+      "H": 2,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.570739678155482,
+      "complete_moment": 4.570739678155482,
+      "static_strip": 4.570739678155482,
+      "static_diamond": 4.259788745266985,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.06803076849346631,
+      "H": 2,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.570739678155482,
+      "complete_moment": 4.570739678155482,
+      "static_strip": 4.570739678155482,
+      "static_diamond": 2.065584638276058,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5480852589028603,
+      "H": 2,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.097137572798868,
+      "complete_moment": 8.097137572798868,
+      "static_strip": 8.09713757279887,
+      "static_diamond": 7.9970770918108895,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01235751277391142,
+      "H": 2,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.905463670403197,
+      "complete_moment": 7.905463670403197,
+      "static_strip": 7.905463670403199,
+      "static_diamond": 6.356619740174896,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.19592069419367883,
+      "H": 2,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.905463670403197,
+      "complete_moment": 7.905463670403197,
+      "static_strip": 7.905463670403199,
+      "static_diamond": 2.1384451856937443,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7294978163393827,
+      "H": 2,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.666257172849324,
+      "complete_moment": 4.666257172849324,
+      "static_strip": 4.666257172849324,
+      "static_diamond": 4.609840653744684,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.012090315002974968,
+      "H": 2,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.570739678155482,
+      "complete_moment": 4.570739678155482,
+      "static_strip": 4.570739678155482,
+      "static_diamond": 4.296070642859662,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.06009290719585727,
+      "H": 2,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.570739678155482,
+      "complete_moment": 4.570739678155482,
+      "static_strip": 4.570739678155482,
+      "static_diamond": 2.0688898769577433,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5473621289688845,
+      "H": 2,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.097137572798868,
+      "complete_moment": 8.097137572798868,
+      "static_strip": 8.09713757279887,
+      "static_diamond": 8.013831802176757,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.010288298781283688,
+      "H": 2,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.905463670403197,
+      "complete_moment": 7.905463670403197,
+      "static_strip": 7.905463670403199,
+      "static_diamond": 6.403190669046313,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.19002971413064076,
+      "H": 2,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.905463670403197,
+      "complete_moment": 7.905463670403197,
+      "static_strip": 7.905463670403199,
+      "static_diamond": 2.1395440915720805,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7293588104664633,
+      "H": 2,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 2.17620385960903,
+      "static_strip": 2.1762038596090316,
+      "static_diamond": 1.9067690130906556,
+      "moment_gap": 2.70165520296189,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12380956192531596,
+      "H": 4,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.08207397413382626,
+      "static_strip": 0.08207397413382661,
+      "static_diamond": 0.07968168196304501,
+      "moment_gap": 4.795785088437094,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.02914799966772443,
+      "H": 4,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.6839497844485523,
+      "static_strip": 0.6839497844485526,
+      "static_diamond": 0.3749158104053589,
+      "moment_gap": 4.1939092781223675,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.45183722704490387,
+      "H": 4,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 2.17620385960903,
+      "static_strip": 2.1762038596090316,
+      "static_diamond": 1.9067690130906556,
+      "moment_gap": 2.70165520296189,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12380956192531596,
+      "H": 4,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.08207397413382626,
+      "static_strip": 0.08207397413382661,
+      "static_diamond": 0.07968168196304501,
+      "moment_gap": 4.795785088437094,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.02914799966772443,
+      "H": 4,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.6839497844485523,
+      "static_strip": 0.6839497844485526,
+      "static_diamond": 0.3749158104053589,
+      "moment_gap": 4.1939092781223675,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.45183722704490387,
+      "H": 4,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 2.17620385960903,
+      "static_strip": 2.1762038596090294,
+      "static_diamond": 1.9067690130905741,
+      "moment_gap": 2.70165520296189,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12380956192535252,
+      "H": 4,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.08207397413382626,
+      "static_strip": 0.08207397413382599,
+      "static_diamond": 0.07968168196305296,
+      "moment_gap": 4.795785088437094,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.029147999667620154,
+      "H": 4,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.6839497844485523,
+      "static_strip": 0.683949784448552,
+      "static_diamond": 0.37491581040535626,
+      "moment_gap": 4.1939092781223675,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.45183722704490725,
+      "H": 4,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 2.17620385960903,
+      "static_strip": 2.1762038596090294,
+      "static_diamond": 1.9067690130905741,
+      "moment_gap": 2.70165520296189,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12380956192535252,
+      "H": 4,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.08207397413382626,
+      "static_strip": 0.08207397413382599,
+      "static_diamond": 0.07968168196305296,
+      "moment_gap": 4.795785088437094,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.029147999667620154,
+      "H": 4,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.87785906257092,
+      "complete_moment": 0.6839497844485523,
+      "static_strip": 0.683949784448552,
+      "static_diamond": 0.37491581040535626,
+      "moment_gap": 4.1939092781223675,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.45183722704490725,
+      "H": 4,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.915312690873684,
+      "complete_moment": 4.915312690873684,
+      "static_strip": 4.915312690873685,
+      "static_diamond": 4.815163204020239,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.020374998123597356,
+      "H": 4,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.816999060943658,
+      "complete_moment": 4.816999060943658,
+      "static_strip": 4.816999060943658,
+      "static_diamond": 2.2097665897200582,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5412565869823605,
+      "H": 4,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.816999060943658,
+      "complete_moment": 4.816999060943658,
+      "static_strip": 4.816999060943658,
+      "static_diamond": 0.7376544892098285,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8468643070349031,
+      "H": 4,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.569459804252742,
+      "complete_moment": 5.569459804252742,
+      "static_strip": 5.569459804252741,
+      "static_diamond": 5.447048614966052,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.02197900579033141,
+      "H": 4,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.46760698562629,
+      "complete_moment": 5.46760698562629,
+      "static_strip": 5.467606985626291,
+      "static_diamond": 2.2097665897200556,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5958439230308108,
+      "H": 4,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.46760698562629,
+      "complete_moment": 5.46760698562629,
+      "static_strip": 5.467606985626291,
+      "static_diamond": 0.7376544892098299,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8650864096214232,
+      "H": 4,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.915312690873684,
+      "complete_moment": 4.915312690873684,
+      "static_strip": 4.915312690873685,
+      "static_diamond": 4.822484621704833,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01888548603249734,
+      "H": 4,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.816999060943658,
+      "complete_moment": 4.816999060943658,
+      "static_strip": 4.816999060943658,
+      "static_diamond": 2.2097665897200565,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5412565869823609,
+      "H": 4,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.816999060943658,
+      "complete_moment": 4.816999060943658,
+      "static_strip": 4.816999060943658,
+      "static_diamond": 0.7376544892098293,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8468643070349029,
+      "H": 4,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.569459804252742,
+      "complete_moment": 5.569459804252742,
+      "static_strip": 5.569459804252741,
+      "static_diamond": 5.456018000943479,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.02036854691412613,
+      "H": 4,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.46760698562629,
+      "complete_moment": 5.46760698562629,
+      "static_strip": 5.467606985626291,
+      "static_diamond": 2.209766589720053,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5958439230308114,
+      "H": 4,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.46760698562629,
+      "complete_moment": 5.46760698562629,
+      "static_strip": 5.467606985626291,
+      "static_diamond": 0.7376544892098307,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8650864096214231,
+      "H": 4,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.667621215968307,
+      "complete_moment": 4.667621215968307,
+      "static_strip": 4.667621215968307,
+      "static_diamond": 4.570322119768788,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.020845542450328023,
+      "H": 4,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.666212746109914,
+      "complete_moment": 4.666212746109914,
+      "static_strip": 4.666212746109915,
+      "static_diamond": 2.458296858399778,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.47317085779057366,
+      "H": 4,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.666212746109914,
+      "complete_moment": 4.666212746109914,
+      "static_strip": 4.666212746109915,
+      "static_diamond": 0.9241352093384773,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8019517626775801,
+      "H": 4,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.201795221183781,
+      "complete_moment": 7.201795221183781,
+      "static_strip": 7.201795221183781,
+      "static_diamond": 7.03752814217049,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.02280918492796169,
+      "H": 4,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.199168703965333,
+      "complete_moment": 7.199168703965333,
+      "static_strip": 7.199168703965334,
+      "static_diamond": 2.7731295667564693,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6147986412335333,
+      "H": 4,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.199168703965333,
+      "complete_moment": 7.199168703965333,
+      "static_strip": 7.199168703965334,
+      "static_diamond": 1.0065338343078638,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8601874916817187,
+      "H": 4,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.667621215968307,
+      "complete_moment": 4.667621215968307,
+      "static_strip": 4.667621215968307,
+      "static_diamond": 4.57740353019026,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01932840768428356,
+      "H": 4,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.666212746109914,
+      "complete_moment": 4.666212746109914,
+      "static_strip": 4.666212746109915,
+      "static_diamond": 2.4582968583997777,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.4731708577905738,
+      "H": 4,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.666212746109914,
+      "complete_moment": 4.666212746109914,
+      "static_strip": 4.666212746109915,
+      "static_diamond": 0.9241352093384758,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8019517626775803,
+      "H": 4,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.201795221183781,
+      "complete_moment": 7.201795221183781,
+      "static_strip": 7.201795221183781,
+      "static_diamond": 7.04975309126294,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.021111698576712565,
+      "H": 4,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.199168703965333,
+      "complete_moment": 7.199168703965333,
+      "static_strip": 7.199168703965334,
+      "static_diamond": 2.773129566756488,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6147986412335308,
+      "H": 4,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.199168703965333,
+      "complete_moment": 7.199168703965333,
+      "static_strip": 7.199168703965334,
+      "static_diamond": 1.0065338343078647,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8601874916817186,
+      "H": 4,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.727719734636197,
+      "complete_moment": 4.727719734636197,
+      "static_strip": 4.727719734636196,
+      "static_diamond": 4.66406853829641,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01346340305950549,
+      "H": 4,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.727719734636197,
+      "complete_moment": 4.727719734636197,
+      "static_strip": 4.727719734636196,
+      "static_diamond": 2.8701430369392633,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.39291176337885764,
+      "H": 4,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.727719734636197,
+      "complete_moment": 4.727719734636197,
+      "static_strip": 4.727719734636196,
+      "static_diamond": 0.9854631815162584,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.791556344954934,
+      "H": 4,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.22434270086108,
+      "complete_moment": 8.22434270086108,
+      "static_strip": 8.22434270086108,
+      "static_diamond": 8.087964191332114,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.016582298973836132,
+      "H": 4,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.22434270086108,
+      "complete_moment": 8.22434270086108,
+      "static_strip": 8.22434270086108,
+      "static_diamond": 3.2555370640884105,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6041583890044417,
+      "H": 4,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.22434270086108,
+      "complete_moment": 8.22434270086108,
+      "static_strip": 8.22434270086108,
+      "static_diamond": 1.0809858897504223,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8685626403144358,
+      "H": 4,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.727719734636197,
+      "complete_moment": 4.727719734636197,
+      "static_strip": 4.727719734636196,
+      "static_diamond": 4.672443362803153,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01169197307278543,
+      "H": 4,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.727719734636197,
+      "complete_moment": 4.727719734636197,
+      "static_strip": 4.727719734636196,
+      "static_diamond": 2.8805032125086933,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.3907203949917831,
+      "H": 4,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.727719734636197,
+      "complete_moment": 4.727719734636197,
+      "static_strip": 4.727719734636196,
+      "static_diamond": 0.9851307482437218,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7916266607289637,
+      "H": 4,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.22434270086108,
+      "complete_moment": 8.22434270086108,
+      "static_strip": 8.22434270086108,
+      "static_diamond": 8.106166046290513,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01436913062465086,
+      "H": 4,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.22434270086108,
+      "complete_moment": 8.22434270086108,
+      "static_strip": 8.22434270086108,
+      "static_diamond": 3.268423686501387,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6025915011835308,
+      "H": 4,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.22434270086108,
+      "complete_moment": 8.22434270086108,
+      "static_strip": 8.22434270086108,
+      "static_diamond": 1.0809858897504236,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8685626403144356,
+      "H": 4,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.10164848087487,
+      "complete_moment": 1.2009292111086547,
+      "static_strip": 1.2009292111086551,
+      "static_diamond": 1.095593889451015,
+      "moment_gap": 3.900719269766215,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.08771151595221688,
+      "H": 6,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.04529218739038354,
+      "static_strip": 0.0452921873903835,
+      "static_diamond": 0.044561767540352265,
+      "moment_gap": 5.032162566988196,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.016126839795472532,
+      "H": 6,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.3774348949198629,
+      "static_strip": 0.37743489491986265,
+      "static_diamond": 0.24181478955202743,
+      "moment_gap": 4.700019859458718,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.35932052704514833,
+      "H": 6,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.10164848087487,
+      "complete_moment": 1.2009292111086547,
+      "static_strip": 1.2009292111086551,
+      "static_diamond": 1.095593889451015,
+      "moment_gap": 3.900719269766215,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.08771151595221688,
+      "H": 6,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.04529218739038354,
+      "static_strip": 0.0452921873903835,
+      "static_diamond": 0.044561767540352265,
+      "moment_gap": 5.032162566988196,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.016126839795472532,
+      "H": 6,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.3774348949198629,
+      "static_strip": 0.37743489491986265,
+      "static_diamond": 0.24181478955202743,
+      "moment_gap": 4.700019859458718,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.35932052704514833,
+      "H": 6,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.10164848087487,
+      "complete_moment": 1.2009292111086547,
+      "static_strip": 1.200929211108656,
+      "static_diamond": 1.095593889451015,
+      "moment_gap": 3.900719269766215,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.08771151595221756,
+      "H": 6,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.04529218739038354,
+      "static_strip": 0.04529218739038344,
+      "static_diamond": 0.0445617675403576,
+      "moment_gap": 5.032162566988196,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.016126839795353363,
+      "H": 6,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.3774348949198629,
+      "static_strip": 0.37743489491986293,
+      "static_diamond": 0.24181478955203053,
+      "moment_gap": 4.700019859458718,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.35932052704514056,
+      "H": 6,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.10164848087487,
+      "complete_moment": 1.2009292111086547,
+      "static_strip": 1.200929211108656,
+      "static_diamond": 1.095593889451015,
+      "moment_gap": 3.900719269766215,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.08771151595221756,
+      "H": 6,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.04529218739038354,
+      "static_strip": 0.04529218739038344,
+      "static_diamond": 0.0445617675403576,
+      "moment_gap": 5.032162566988196,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.016126839795353363,
+      "H": 6,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.07745475437858,
+      "complete_moment": 0.3774348949198629,
+      "static_strip": 0.37743489491986293,
+      "static_diamond": 0.24181478955203053,
+      "moment_gap": 4.700019859458718,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.35932052704514056,
+      "H": 6,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.984081156131694,
+      "complete_moment": 4.984081156131694,
+      "static_strip": 4.984081156131693,
+      "static_diamond": 4.912327218126477,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01439662312017938,
+      "H": 6,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.923874329722792,
+      "complete_moment": 4.798015565812789,
+      "static_strip": 4.798015565812788,
+      "static_diamond": 2.506370306913835,
+      "moment_gap": 0.12585876391000284,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.47762355654441196,
+      "H": 6,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.923874329722792,
+      "complete_moment": 4.923874329722792,
+      "static_strip": 4.923874329722792,
+      "static_diamond": 0.6556370924162731,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8668452831018567,
+      "H": 6,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.62450081278128,
+      "complete_moment": 5.62450081278128,
+      "static_strip": 5.624500812781278,
+      "static_diamond": 5.540062767125503,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01501254039538856,
+      "H": 6,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.535253409890125,
+      "complete_moment": 5.442024695882716,
+      "static_strip": 5.442024695882715,
+      "static_diamond": 2.5063703069138343,
+      "moment_gap": 0.09322871400740951,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.5394415779093975,
+      "H": 6,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.535253409890125,
+      "complete_moment": 5.535253409890125,
+      "static_strip": 5.5352534098901245,
+      "static_diamond": 0.6556370924162678,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8815524703449336,
+      "H": 6,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.984081156131694,
+      "complete_moment": 4.984081156131694,
+      "static_strip": 4.984081156131693,
+      "static_diamond": 4.913656799121685,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014129857601409302,
+      "H": 6,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.923874329722792,
+      "complete_moment": 4.798015565812789,
+      "static_strip": 4.798015565812789,
+      "static_diamond": 2.506370306913828,
+      "moment_gap": 0.12585876391000284,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.4776235565444135,
+      "H": 6,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.923874329722792,
+      "complete_moment": 4.923874329722792,
+      "static_strip": 4.923874329722792,
+      "static_diamond": 0.6556370924162807,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8668452831018553,
+      "H": 6,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.62450081278128,
+      "complete_moment": 5.62450081278128,
+      "static_strip": 5.624500812781278,
+      "static_diamond": 5.542390682684449,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014598652010190843,
+      "H": 6,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.535253409890125,
+      "complete_moment": 5.442024695882716,
+      "static_strip": 5.442024695882716,
+      "static_diamond": 2.5063703069138334,
+      "moment_gap": 0.09322871400740951,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.5394415779093977,
+      "H": 6,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.535253409890125,
+      "complete_moment": 5.535253409890125,
+      "static_strip": 5.5352534098901245,
+      "static_diamond": 0.65563709241628,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8815524703449314,
+      "H": 6,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.022267802321511,
+      "complete_moment": 5.022267802321511,
+      "static_strip": 5.022267802321511,
+      "static_diamond": 4.9377128696768455,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01683600635664636,
+      "H": 6,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.016075301153865,
+      "complete_moment": 5.016075301153865,
+      "static_strip": 5.016075301153865,
+      "static_diamond": 2.520943955120434,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.49742701140460704,
+      "H": 6,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.016075301153865,
+      "complete_moment": 5.016075301153865,
+      "static_strip": 5.016075301153865,
+      "static_diamond": 0.7224138513327502,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.855980261865971,
+      "H": 6,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.776961954235499,
+      "complete_moment": 7.776961954235499,
+      "static_strip": 7.7769619542355,
+      "static_diamond": 7.207932693102131,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.07316857977213892,
+      "H": 6,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.765414166510286,
+      "complete_moment": 7.765414166510286,
+      "static_strip": 7.765414166510287,
+      "static_diamond": 2.6301535832159817,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6612989948998496,
+      "H": 6,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.765414166510286,
+      "complete_moment": 7.765414166510286,
+      "static_strip": 7.765414166510287,
+      "static_diamond": 0.6845615443298634,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.911844812182439,
+      "H": 6,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.022267802321511,
+      "complete_moment": 5.022267802321511,
+      "static_strip": 5.022267802321511,
+      "static_diamond": 4.947786785756348,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014830156315187866,
+      "H": 6,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.016075301153865,
+      "complete_moment": 5.016075301153865,
+      "static_strip": 5.016075301153865,
+      "static_diamond": 2.5209439551204293,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.49742701140460793,
+      "H": 6,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.016075301153865,
+      "complete_moment": 5.016075301153865,
+      "static_strip": 5.016075301153865,
+      "static_diamond": 0.7222864593231074,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8560056586158192,
+      "H": 6,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.776961954235499,
+      "complete_moment": 7.776961954235499,
+      "static_strip": 7.7769619542355,
+      "static_diamond": 7.2034028920075714,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.07375104386560055,
+      "H": 6,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.765414166510286,
+      "complete_moment": 7.765414166510286,
+      "static_strip": 7.765414166510287,
+      "static_diamond": 2.630153583215984,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6612989948998492,
+      "H": 6,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.765414166510286,
+      "complete_moment": 7.765414166510286,
+      "static_strip": 7.765414166510287,
+      "static_diamond": 0.6844878440912044,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9118543030141034,
+      "H": 6,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.013924598543702,
+      "complete_moment": 5.013924598543702,
+      "static_strip": 5.013924598543701,
+      "static_diamond": 4.943498191916956,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014046163886708717,
+      "H": 6,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.995536649634899,
+      "complete_moment": 4.995536649634899,
+      "static_strip": 4.995536649634901,
+      "static_diamond": 2.0472165156415265,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.59019087252795,
+      "H": 6,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.995536649634899,
+      "complete_moment": 4.995536649634899,
+      "static_strip": 4.995536649634901,
+      "static_diamond": 0.6250972308000541,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8748688530098685,
+      "H": 6,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.741300110221587,
+      "complete_moment": 8.741300110221587,
+      "static_strip": 8.741300110221585,
+      "static_diamond": 8.600083778359517,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01615507190937628,
+      "H": 6,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.704401216090213,
+      "complete_moment": 8.704401216090213,
+      "static_strip": 8.704401216090213,
+      "static_diamond": 2.297198967893286,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7360876514231812,
+      "H": 6,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.704401216090213,
+      "complete_moment": 8.704401216090213,
+      "static_strip": 8.704401216090213,
+      "static_diamond": 0.6876502682319755,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.920999704498818,
+      "H": 6,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.013924598543702,
+      "complete_moment": 5.013924598543702,
+      "static_strip": 5.013924598543701,
+      "static_diamond": 4.946753566228342,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.013396897180079106,
+      "H": 6,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.995536649634899,
+      "complete_moment": 4.995536649634899,
+      "static_strip": 4.995536649634901,
+      "static_diamond": 2.0472165156415234,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.5901908725279507,
+      "H": 6,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.995536649634899,
+      "complete_moment": 4.995536649634899,
+      "static_strip": 4.995536649634901,
+      "static_diamond": 0.6250972308000513,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.874868853009869,
+      "H": 6,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.741300110221587,
+      "complete_moment": 8.741300110221587,
+      "static_strip": 8.741300110221585,
+      "static_diamond": 8.606597952937431,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.0154098538644888,
+      "H": 6,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.704401216090213,
+      "complete_moment": 8.704401216090213,
+      "static_strip": 8.704401216090213,
+      "static_diamond": 2.2971989678932876,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.736087651423181,
+      "H": 6,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.704401216090213,
+      "complete_moment": 8.704401216090213,
+      "static_strip": 8.704401216090213,
+      "static_diamond": 0.6876502682319784,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9209997044988176,
+      "H": 6,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.924507506707522,
+      "complete_moment": 1.4599465913229204,
+      "static_strip": 1.4599465913229186,
+      "static_diamond": 1.2836249622226028,
+      "moment_gap": 3.464560915384602,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12077265712887716,
+      "H": 8,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.059466022789240826,
+      "static_strip": 0.05946602278924056,
+      "static_diamond": 0.05757857390906832,
+      "moment_gap": 4.78413801036525,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03173995487913721,
+      "H": 8,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.4588403572729179,
+      "static_strip": 0.45884035727291766,
+      "static_diamond": 0.25473018723673774,
+      "moment_gap": 4.384763675881573,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.44483918382701343,
+      "H": 8,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.924507506707522,
+      "complete_moment": 1.4599465913229204,
+      "static_strip": 1.4599465913229186,
+      "static_diamond": 1.2836249622226028,
+      "moment_gap": 3.464560915384602,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12077265712887716,
+      "H": 8,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.059466022789240826,
+      "static_strip": 0.05946602278924056,
+      "static_diamond": 0.05757857390906832,
+      "moment_gap": 4.78413801036525,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03173995487913721,
+      "H": 8,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.4588403572729179,
+      "static_strip": 0.45884035727291766,
+      "static_diamond": 0.25473018723673774,
+      "moment_gap": 4.384763675881573,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.44483918382701343,
+      "H": 8,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.924507506707522,
+      "complete_moment": 1.4599465913229204,
+      "static_strip": 1.45994659132292,
+      "static_diamond": 1.2836249622225733,
+      "moment_gap": 3.464560915384602,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12077265712889819,
+      "H": 8,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.059466022789240826,
+      "static_strip": 0.059466022789240826,
+      "static_diamond": 0.057578573909053084,
+      "moment_gap": 4.78413801036525,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03173995487939775,
+      "H": 8,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.4588403572729179,
+      "static_strip": 0.4588403572729179,
+      "static_diamond": 0.254730187236734,
+      "moment_gap": 4.384763675881573,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.44483918382702176,
+      "H": 8,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.924507506707522,
+      "complete_moment": 1.4599465913229204,
+      "static_strip": 1.45994659132292,
+      "static_diamond": 1.2836249622225733,
+      "moment_gap": 3.464560915384602,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.12077265712889819,
+      "H": 8,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.059466022789240826,
+      "static_strip": 0.059466022789240826,
+      "static_diamond": 0.057578573909053084,
+      "moment_gap": 4.78413801036525,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.03173995487939775,
+      "H": 8,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.843604033154492,
+      "complete_moment": 0.4588403572729179,
+      "static_strip": 0.4588403572729179,
+      "static_diamond": 0.254730187236734,
+      "moment_gap": 4.384763675881573,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.44483918382702176,
+      "H": 8,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.882453210606102,
+      "complete_moment": 4.882453210606102,
+      "static_strip": 4.8824532106061005,
+      "static_diamond": 4.814870153582878,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01384202860898136,
+      "H": 8,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.834111964015537,
+      "complete_moment": 4.763641230818285,
+      "static_strip": 4.763641230818285,
+      "static_diamond": 1.2022639094001828,
+      "moment_gap": 0.07047073319725161,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.747616612766268,
+      "H": 8,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.834111964015537,
+      "complete_moment": 4.834111964015537,
+      "static_strip": 4.834111964015536,
+      "static_diamond": 0.5217903748551322,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8920607592998946,
+      "H": 8,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.599001773785651,
+      "complete_moment": 5.599001773785651,
+      "static_strip": 5.59900177378565,
+      "static_diamond": 5.5224549453084055,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.013671513525077707,
+      "H": 8,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.563193442977825,
+      "complete_moment": 5.454776930366671,
+      "static_strip": 5.454776930366671,
+      "static_diamond": 1.2022639094002243,
+      "moment_gap": 0.10841651261115448,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.7795943033513916,
+      "H": 8,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.563193442977825,
+      "complete_moment": 5.563193442977825,
+      "static_strip": 5.563193442977824,
+      "static_diamond": 0.5217903748551659,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9062066814315438,
+      "H": 8,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.882453210606102,
+      "complete_moment": 4.882453210606102,
+      "static_strip": 4.8824532106061005,
+      "static_diamond": 4.817128166506531,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.013379553532159808,
+      "H": 8,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.834111964015537,
+      "complete_moment": 4.763641230818285,
+      "static_strip": 4.763641230818285,
+      "static_diamond": 1.2022639094001946,
+      "moment_gap": 0.07047073319725161,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.7476166127662656,
+      "H": 8,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.834111964015537,
+      "complete_moment": 4.834111964015537,
+      "static_strip": 4.834111964015536,
+      "static_diamond": 0.5217903748551626,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8920607592998884,
+      "H": 8,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.599001773785651,
+      "complete_moment": 5.599001773785651,
+      "static_strip": 5.59900177378565,
+      "static_diamond": 5.525034056835713,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.01321087578436782,
+      "H": 8,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.563193442977825,
+      "complete_moment": 5.454776930366671,
+      "static_strip": 5.454776930366671,
+      "static_diamond": 1.202263909400196,
+      "moment_gap": 0.10841651261115448,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.7795943033513968,
+      "H": 8,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.563193442977825,
+      "complete_moment": 5.563193442977825,
+      "static_strip": 5.563193442977824,
+      "static_diamond": 0.5217903748551695,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9062066814315431,
+      "H": 8,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.061959187040418,
+      "complete_moment": 5.061959187040418,
+      "static_strip": 5.061959187040416,
+      "static_diamond": 4.985897803717669,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.015026075974195668,
+      "H": 8,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.061959187040418,
+      "complete_moment": 5.061959187040418,
+      "static_strip": 5.061959187040416,
+      "static_diamond": 1.8183302640564056,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6407852776230043,
+      "H": 8,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.061959187040418,
+      "complete_moment": 5.061959187040418,
+      "static_strip": 5.061959187040416,
+      "static_diamond": 0.5145963658132808,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8983404751403871,
+      "H": 8,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.81538841174817,
+      "complete_moment": 7.81538841174817,
+      "static_strip": 7.81538841174817,
+      "static_diamond": 7.342369188317351,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.0605240838343712,
+      "H": 8,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.81538841174817,
+      "complete_moment": 7.81538841174817,
+      "static_strip": 7.81538841174817,
+      "static_diamond": 1.9463582306459357,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7509582213828105,
+      "H": 8,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.81538841174817,
+      "complete_moment": 7.81538841174817,
+      "static_strip": 7.81538841174817,
+      "static_diamond": 0.564401180129277,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9277833486457483,
+      "H": 8,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.061959187040418,
+      "complete_moment": 5.061959187040418,
+      "static_strip": 5.061959187040416,
+      "static_diamond": 4.990694433327341,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.014078492354408285,
+      "H": 8,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.061959187040418,
+      "complete_moment": 5.061959187040418,
+      "static_strip": 5.061959187040416,
+      "static_diamond": 1.8183302640564014,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6407852776230052,
+      "H": 8,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.061959187040418,
+      "complete_moment": 5.061959187040418,
+      "static_strip": 5.061959187040416,
+      "static_diamond": 0.514246332262505,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.898409624957255,
+      "H": 8,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.81538841174817,
+      "complete_moment": 7.81538841174817,
+      "static_strip": 7.81538841174817,
+      "static_diamond": 7.353425680307144,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.0591093759008317,
+      "H": 8,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.81538841174817,
+      "complete_moment": 7.81538841174817,
+      "static_strip": 7.81538841174817,
+      "static_diamond": 1.9463582306459322,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.750958221382811,
+      "H": 8,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.81538841174817,
+      "complete_moment": 7.81538841174817,
+      "static_strip": 7.81538841174817,
+      "static_diamond": 0.564390883803616,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9277846660883523,
+      "H": 8,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.022303801990525,
+      "complete_moment": 5.022303801990525,
+      "static_strip": 5.022303801990524,
+      "static_diamond": 4.9532840913816285,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.013742639499733205,
+      "H": 8,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.990764852149458,
+      "complete_moment": 4.990764852149458,
+      "static_strip": 4.990764852149457,
+      "static_diamond": 1.7010378412308271,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.6591628955433129,
+      "H": 8,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.990764852149458,
+      "complete_moment": 4.990764852149458,
+      "static_strip": 4.990764852149457,
+      "static_diamond": 0.5315471447620445,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8934938510410655,
+      "H": 8,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.772178804436638,
+      "complete_moment": 8.772178804436638,
+      "static_strip": 8.772178804436637,
+      "static_diamond": 7.053384779042408,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.19593695747799028,
+      "H": 8,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.708889941879313,
+      "complete_moment": 8.708889941879313,
+      "static_strip": 8.708889941879313,
+      "static_diamond": 1.7045240352459476,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8042776924933646,
+      "H": 8,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.708889941879313,
+      "complete_moment": 8.708889941879313,
+      "static_strip": 8.708889941879313,
+      "static_diamond": 0.5295860768715249,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9391901745910405,
+      "H": 8,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.022303801990525,
+      "complete_moment": 5.022303801990525,
+      "static_strip": 5.022303801990524,
+      "static_diamond": 4.959478194937614,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.012509320329847291,
+      "H": 8,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.990764852149458,
+      "complete_moment": 4.990764852149458,
+      "static_strip": 4.990764852149457,
+      "static_diamond": 1.7010378412308365,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.659162895543311,
+      "H": 8,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.990764852149458,
+      "complete_moment": 4.990764852149458,
+      "static_strip": 4.990764852149457,
+      "static_diamond": 0.5315471447620432,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8934938510410658,
+      "H": 8,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.772178804436638,
+      "complete_moment": 8.772178804436638,
+      "static_strip": 8.772178804436637,
+      "static_diamond": 7.044530958095622,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.1969462644180526,
+      "H": 8,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.708889941879313,
+      "complete_moment": 8.708889941879313,
+      "static_strip": 8.708889941879313,
+      "static_diamond": 1.7045240352459692,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8042776924933621,
+      "H": 8,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.708889941879313,
+      "complete_moment": 8.708889941879313,
+      "static_strip": 8.708889941879313,
+      "static_diamond": 0.5295483653850914,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9391945048198854,
+      "H": 8,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.9337842896374955,
+      "complete_moment": 0.5784058837295459,
+      "static_strip": 0.5784058837295458,
+      "static_diamond": 0.5226043735135,
+      "moment_gap": 4.35537840590795,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.09647465868818482,
+      "H": 12,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.02181416475780002,
+      "static_strip": 0.02181416475780046,
+      "static_diamond": 0.021405495024693695,
+      "moment_gap": 4.81149911953833,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.018734145342907446,
+      "H": 12,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.18178470631500018,
+      "static_strip": 0.18178470631500043,
+      "static_diamond": 0.1120150994588262,
+      "moment_gap": 4.65152857798113,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.3838035017933574,
+      "H": 12,
+      "B": 1,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.9337842896374955,
+      "complete_moment": 0.5784058837295459,
+      "static_strip": 0.5784058837295458,
+      "static_diamond": 0.5226043735135,
+      "moment_gap": 4.35537840590795,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.09647465868818482,
+      "H": 12,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.02181416475780002,
+      "static_strip": 0.02181416475780046,
+      "static_diamond": 0.021405495024693695,
+      "moment_gap": 4.81149911953833,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.018734145342907446,
+      "H": 12,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.18178470631500018,
+      "static_strip": 0.18178470631500043,
+      "static_diamond": 0.1120150994588262,
+      "moment_gap": 4.65152857798113,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.3838035017933574,
+      "H": 12,
+      "B": 1,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.9337842896374955,
+      "complete_moment": 0.5784058837295459,
+      "static_strip": 0.5784058837295442,
+      "static_diamond": 0.5226043735135211,
+      "moment_gap": 4.35537840590795,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.09647465868814575,
+      "H": 12,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.02181416475780002,
+      "static_strip": 0.021814164757800316,
+      "static_diamond": 0.02140549502469547,
+      "moment_gap": 4.81149911953833,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.018734145342819617,
+      "H": 12,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.18178470631500018,
+      "static_strip": 0.18178470631500054,
+      "static_diamond": 0.11201509945880807,
+      "moment_gap": 4.65152857798113,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.3838035017934576,
+      "H": 12,
+      "B": 1,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.9337842896374955,
+      "complete_moment": 0.5784058837295459,
+      "static_strip": 0.5784058837295442,
+      "static_diamond": 0.5226043735135211,
+      "moment_gap": 4.35537840590795,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.09647465868814575,
+      "H": 12,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.02181416475780002,
+      "static_strip": 0.021814164757800316,
+      "static_diamond": 0.02140549502469547,
+      "moment_gap": 4.81149911953833,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.018734145342819617,
+      "H": 12,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.83331328429613,
+      "complete_moment": 0.18178470631500018,
+      "static_strip": 0.18178470631500054,
+      "static_diamond": 0.11201509945880807,
+      "moment_gap": 4.65152857798113,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.3838035017934576,
+      "H": 12,
+      "B": 1,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.891310845832344,
+      "complete_moment": 4.891310845832344,
+      "static_strip": 4.891310845832345,
+      "static_diamond": 4.375976932921053,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.10535701556370805,
+      "H": 12,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.878887265947514,
+      "complete_moment": 4.870310915004499,
+      "static_strip": 4.870310915004499,
+      "static_diamond": 0.9947604038300514,
+      "moment_gap": 0.008576350943015676,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.7957501233103241,
+      "H": 12,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.878887265947514,
+      "complete_moment": 4.878887265947514,
+      "static_strip": 4.878887265947514,
+      "static_diamond": 0.32636766201718703,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9331061276420364,
+      "H": 12,
+      "B": 2,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.549900988752384,
+      "complete_moment": 5.549900988752384,
+      "static_strip": 5.549900988752383,
+      "static_diamond": 4.425399894486249,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.202616424427226,
+      "H": 12,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.540698336985844,
+      "complete_moment": 5.534345484435462,
+      "static_strip": 5.534345484435461,
+      "static_diamond": 0.9947604038300322,
+      "moment_gap": 0.006352852550381982,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.8202569018093195,
+      "H": 12,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.540698336985844,
+      "complete_moment": 5.540698336985844,
+      "static_strip": 5.540698336985842,
+      "static_diamond": 0.32636766201717843,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9410962946965412,
+      "H": 12,
+      "B": 2,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.891310845832344,
+      "complete_moment": 4.891310845832344,
+      "static_strip": 4.891310845832345,
+      "static_diamond": 4.375976932921041,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.10535701556371041,
+      "H": 12,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.878887265947514,
+      "complete_moment": 4.870310915004499,
+      "static_strip": 4.870310915004498,
+      "static_diamond": 0.9947604038300458,
+      "moment_gap": 0.008576350943015676,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.7957501233103252,
+      "H": 12,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.878887265947514,
+      "complete_moment": 4.878887265947514,
+      "static_strip": 4.878887265947514,
+      "static_diamond": 0.3263676620171814,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9331061276420375,
+      "H": 12,
+      "B": 2,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.549900988752384,
+      "complete_moment": 5.549900988752384,
+      "static_strip": 5.549900988752383,
+      "static_diamond": 4.425399894486282,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.20261642442722005,
+      "H": 12,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.540698336985844,
+      "complete_moment": 5.534345484435462,
+      "static_strip": 5.53434548443546,
+      "static_diamond": 0.9947604038300344,
+      "moment_gap": 0.006352852550381982,
+      "diamond_below_local": true,
+      "moment_inexact": true,
+      "relative_diamond_drop": 0.8202569018093191,
+      "H": 12,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 5.540698336985844,
+      "complete_moment": 5.540698336985844,
+      "static_strip": 5.540698336985842,
+      "static_diamond": 0.3263676620171837,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9410962946965402,
+      "H": 12,
+      "B": 2,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.886213302777437,
+      "complete_moment": 4.886213302777437,
+      "static_strip": 4.886213302777437,
+      "static_diamond": 4.3001243218608955,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.11994748174079804,
+      "H": 12,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.886213302777437,
+      "complete_moment": 4.886213302777437,
+      "static_strip": 4.886213302777437,
+      "static_diamond": 1.0080591493071445,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.7936931757084488,
+      "H": 12,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.886213302777437,
+      "complete_moment": 4.886213302777437,
+      "static_strip": 4.886213302777437,
+      "static_diamond": 0.30827022188060066,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9369101996211724,
+      "H": 12,
+      "B": 3,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.491103528001186,
+      "complete_moment": 7.491103528001186,
+      "static_strip": 7.491103528001187,
+      "static_diamond": 5.061615932872705,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.32431638223223563,
+      "H": 12,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.491103528001186,
+      "complete_moment": 7.491103528001186,
+      "static_strip": 7.491103528001187,
+      "static_diamond": 0.9222628541083333,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8768855815887494,
+      "H": 12,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.491103528001186,
+      "complete_moment": 7.491103528001186,
+      "static_strip": 7.491103528001187,
+      "static_diamond": 0.28751419857694555,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9616192464164673,
+      "H": 12,
+      "B": 3,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.886213302777437,
+      "complete_moment": 4.886213302777437,
+      "static_strip": 4.886213302777437,
+      "static_diamond": 4.292261836476026,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.12155659802321661,
+      "H": 12,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.886213302777437,
+      "complete_moment": 4.886213302777437,
+      "static_strip": 4.886213302777437,
+      "static_diamond": 1.008059149307144,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.793693175708449,
+      "H": 12,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.886213302777437,
+      "complete_moment": 4.886213302777437,
+      "static_strip": 4.886213302777437,
+      "static_diamond": 0.30827022188060144,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9369101996211722,
+      "H": 12,
+      "B": 3,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.491103528001186,
+      "complete_moment": 7.491103528001186,
+      "static_strip": 7.491103528001187,
+      "static_diamond": 5.059595216469933,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.32458613106099204,
+      "H": 12,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.491103528001186,
+      "complete_moment": 7.491103528001186,
+      "static_strip": 7.491103528001187,
+      "static_diamond": 0.9222628541083262,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8768855815887504,
+      "H": 12,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 7.491103528001186,
+      "complete_moment": 7.491103528001186,
+      "static_strip": 7.491103528001187,
+      "static_diamond": 0.28751419857692917,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9616192464164696,
+      "H": 12,
+      "B": 3,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.931476297351123,
+      "complete_moment": 4.931476297351123,
+      "static_strip": 4.931476297351122,
+      "static_diamond": 3.9612271250423077,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.1967461899451836,
+      "H": 12,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.910176605500062,
+      "complete_moment": 4.910176605500062,
+      "static_strip": 4.910176605500063,
+      "static_diamond": 0.8677955337106213,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8232659223013338,
+      "H": 12,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.910176605500062,
+      "complete_moment": 4.910176605500062,
+      "static_strip": 4.910176605500063,
+      "static_diamond": 0.2859788094574458,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9417579381692481,
+      "H": 12,
+      "B": 4,
+      "geometry": "equal",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.590253015561567,
+      "complete_moment": 8.590253015561567,
+      "static_strip": 8.590253015561569,
+      "static_diamond": 4.841124677613139,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.43643980347921557,
+      "H": 12,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.547511159004255,
+      "complete_moment": 8.547511159004255,
+      "static_strip": 8.547511159004255,
+      "static_diamond": 0.9153572989845961,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8929094935406634,
+      "H": 12,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.547511159004255,
+      "complete_moment": 8.547511159004255,
+      "static_strip": 8.547511159004255,
+      "static_diamond": 0.3095844806909354,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9637807456542706,
+      "H": 12,
+      "B": 4,
+      "geometry": "unequal_bay",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.931476297351123,
+      "complete_moment": 4.931476297351123,
+      "static_strip": 4.931476297351122,
+      "static_diamond": 3.955887125681923,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.1978290298572913,
+      "H": 12,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.910176605500062,
+      "complete_moment": 4.910176605500062,
+      "static_strip": 4.910176605500063,
+      "static_diamond": 0.8677955337106242,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.8232659223013332,
+      "H": 12,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 4.910176605500062,
+      "complete_moment": 4.910176605500062,
+      "static_strip": 4.910176605500063,
+      "static_diamond": 0.2859788094574492,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9417579381692474,
+      "H": 12,
+      "B": 4,
+      "geometry": "unequal_height",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.590253015561567,
+      "complete_moment": 8.590253015561567,
+      "static_strip": 8.590253015561569,
+      "static_diamond": 4.837468368435928,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.4368654381107668,
+      "H": 12,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "balanced",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.547511159004255,
+      "complete_moment": 8.547511159004255,
+      "static_strip": 8.547511159004255,
+      "static_diamond": 0.9153572989845918,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.892909493540664,
+      "H": 12,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "weak_base",
+      "removal": [
+        1,
+        1
+      ]
+    },
+    {
+      "local_moment": 8.547511159004255,
+      "complete_moment": 8.547511159004255,
+      "static_strip": 8.547511159004255,
+      "static_diamond": 0.3095844806909325,
+      "moment_gap": 0.0,
+      "diamond_below_local": true,
+      "moment_inexact": false,
+      "relative_diamond_drop": 0.9637807456542709,
+      "H": 12,
+      "B": 4,
+      "geometry": "combined",
+      "regime": "axial",
+      "removal": [
+        1,
+        1
+      ]
+    }
+  ],
+  "ensemble_summary": {
+    "n": 240,
+    "moment_inexact": 76,
+    "moment_exact": 164,
+    "inexact_and_diamond_below_local": 76,
+    "max_relative_diamond_drop": 0.9637807456542709,
+    "median_relative_diamond_drop": 0.4103797333515683
+  }
+}

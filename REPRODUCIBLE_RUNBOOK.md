@@ -1,8 +1,13 @@
 # Reproducible runbook
 
-From the repository root, install Python 3.11 or 3.12 and NumPy, SciPy and
-Matplotlib. Run the eight commands in `README.md`. The exact gate writes the
-frozen JSON output and the audit recomputes all retained treatment instances.
+From the repository root, install Python 3.11 or 3.12 and the packages in
+`requirements.txt` (NumPy, SciPy and Matplotlib). Run the commands in
+`README.md`. The exact gate writes the frozen JSON output and the audit
+recomputes all retained treatment instances. The later commands add the
+stratified LP audit, ensemble sensitivity, removal-position path, algorithm
+benchmark, diamond-domain probe, full-population sign audit and the independent
+pushdown check. Those commands read and rewrite only files inside this
+repository.
 
 The public nonlinear control is distributed only as a frozen derived output
 and figure. Its third-party raw source files and original OpenSeesPy adapter

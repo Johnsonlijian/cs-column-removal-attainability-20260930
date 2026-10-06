@@ -126,19 +126,111 @@ def summarize_case(f: Frame, x: np.ndarray, baseline_clean: np.ndarray, treatmen
     }
 
 
-def main() -> None:
-    rng = np.random.default_rng(SEED)
+def _position_class(H: int, B: int, s: int, g: int) -> str:
+    story = "ground" if s == 1 else ("roof" if s == H else "interior_story")
+    bay = "exterior" if g in (0, B) else "interior_bay"
+    return f"{story}|{bay}"
+
+
+def _record_capacity_path(
+    H: int,
+    B: int,
+    clean: np.ndarray,
+    treatment: str,
+    result: dict,
+    counts: dict,
+    eligible: dict,
+    gap_instances: dict,
+    eligible_instances: dict,
+    frames_with_gap: dict,
+) -> None:
+    if treatment == "homogeneous_k2":
+        return
+    full = result["full"]
+    local = result["local"]
+    opened = (local - full) > np.maximum(1.0e-8, 1.0e-8 * np.abs(local))
+    opened &= clean
+    for s in range(1, H + 1):
+        for g in range(B + 1):
+            if not clean[s - 1, g]:
+                continue
+            cls = _position_class(H, B, s, g)
+            eligible[treatment][cls] += 1
+            eligible_instances[treatment] += 1
+            if opened[s - 1, g]:
+                counts[treatment][cls] += 1
+                gap_instances[treatment] += 1
+    if result["any_new_gap"]:
+        frames_with_gap[treatment] += 1
+
+
+def _summarize_capacity_paths(
+    counts: dict,
+    eligible: dict,
+    gap_instances: dict,
+    eligible_instances: dict,
+    frames_with_gap: dict,
+    baseline_clean_total: int,
+) -> dict:
+    summary = {}
+    for treatment in counts:
+        by_class = {}
+        for cls in sorted(eligible[treatment]):
+            denom = eligible[treatment][cls]
+            num = counts[treatment][cls]
+            by_class[cls] = {
+                "eligible_instances": int(denom),
+                "gap_instances": int(num),
+                "gap_fraction": float(num / denom) if denom else 0.0,
+            }
+        summary[treatment] = {
+            "baseline_clean_frames": baseline_clean_total,
+            "frames_with_new_gap": frames_with_gap[treatment],
+            "frame_fraction": float(frames_with_gap[treatment] / baseline_clean_total),
+            "eligible_instances": eligible_instances[treatment],
+            "gap_instances": gap_instances[treatment],
+            "gap_instance_fraction": float(
+                gap_instances[treatment] / eligible_instances[treatment]
+            ),
+            "by_position_class": by_class,
+        }
+    return summary
+
+
+def collect_capacity_paths(seed: int = SEED, draw_count: int = DRAW_COUNT) -> dict:
+    """Deprecated standalone pass; use ``main(..., write_path_analysis=True)``."""
+    payload = main(seed=seed, draw_count=draw_count, write_path_analysis=True, quiet=True)
+    return json.loads((ROOT.parent / "data" / "capacity_path_analysis.json").read_text(encoding="utf-8"))["treatments"]
+
+
+def main(seed: int = SEED, draw_count: int = DRAW_COUNT,
+         out_path: Path | None = None, quiet: bool = False,
+         write_path_analysis: bool = True) -> dict:
+    """Run the frozen gate.
+
+    ``seed`` and ``draw_count`` are explicit parameters so that the ensemble
+    sensitivity and convergence study can re-run the identical generator at other
+    sample sizes.  The defaults are the frozen ``SEED`` and ``DRAW_COUNT``, so the
+    released ``final_capacity_pattern_gate.json`` is unchanged.
+    """
+    rng = np.random.default_rng(seed)
     group = defaultdict(lambda: {"frames": 0, "baseline_clean_frames": 0, "treatments": defaultdict(lambda: {"frames_with_new_gap": 0, "gap_instances": 0, "eligible_instances": 0, "max_relative_gap": 0.0, "best": None})})
     margin_records: list[dict] = []
     frame_records = 0
     baseline_gap_instances = 0
+    path_counts = {t: defaultdict(int) for t in TREATMENTS if t != "homogeneous_k2"}
+    path_eligible = {t: defaultdict(int) for t in path_counts}
+    path_gap_instances = {t: 0 for t in path_counts}
+    path_eligible_instances = {t: 0 for t in path_counts}
+    path_frames_with_gap = {t: 0 for t in path_counts}
+    baseline_clean_total = 0
 
     for H in H_VALUES:
         for B in B_VALUES:
             for mode in GEOMETRIES:
                 for regime in REGIMES:
                     key = f"{regime}|{mode}|H{H}|B{B}"
-                    for draw in range(DRAW_COUNT):
+                    for draw in range(draw_count):
                         seed = int(rng.integers(0, 2**32 - 1))
                         f = controlled_frame(H, B, seed, regime, mode)
                         x0 = np.ones(f.E)
@@ -155,9 +247,16 @@ def main() -> None:
                         g["baseline_clean_frames"] += int(baseline_clean)
                         if not baseline_clean:
                             continue
+                        baseline_clean_total += 1
                         vecs = treatment_vectors(f, rng)
                         for treatment, x in vecs.items():
                             result = summarize_case(f, x, clean, treatment)
+                            if write_path_analysis:
+                                _record_capacity_path(
+                                    H, B, clean, treatment, result,
+                                    path_counts, path_eligible, path_gap_instances,
+                                    path_eligible_instances, path_frames_with_gap,
+                                )
                             slot = g["treatments"][treatment]
                             slot["frames_with_new_gap"] += int(result["any_new_gap"])
                             slot["gap_instances"] += result["n_gap_instances"]
@@ -222,10 +321,49 @@ def main() -> None:
             "records": margin_records,
         },
     }
-    out = ROOT.parent / "data" / "final_capacity_pattern_gate.json"
+    out = out_path if out_path is not None else ROOT.parent / "data" / "final_capacity_pattern_gate.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
-    print(f"wrote {out}")
-    print(json.dumps({"frame_records": frame_records, "baseline_gap_instances": baseline_gap_instances, "aggregate": aggregate, "margin_n": len(margin_records), "rho": rho}, indent=2))
+    if write_path_analysis and baseline_clean_total:
+        path_summary = _summarize_capacity_paths(
+            path_counts, path_eligible, path_gap_instances,
+            path_eligible_instances, path_frames_with_gap, baseline_clean_total,
+        )
+        path_payload = {
+            "status": "PASS",
+            "baseline_clean_frames": baseline_clean_total,
+            "treatments": path_summary,
+        }
+        path_out = ROOT.parent / "data" / "capacity_path_analysis.json"
+        path_out.write_text(json.dumps(path_payload, indent=2), encoding="utf-8")
+        docs = ROOT.parent / "docs" / "CAPACITY_PATH_ANALYSIS.md"
+        lines = [
+            "# Capacity-path analysis",
+            "",
+            f"Baseline-clean frames: **{baseline_clean_total}**.",
+            "",
+        ]
+        for treatment, s in path_summary.items():
+            lines += [
+                f"## {treatment}",
+                "",
+                f"- Frame fraction with a new gap: **{100 * s['frame_fraction']:.2f}%**",
+                f"- Instance fraction with a new gap: **{100 * s['gap_instance_fraction']:.2f}%**",
+                "",
+                "| Position class | Eligible | Gap instances | Gap fraction |",
+                "|---|---:|---:|---:|",
+            ]
+            for cls, row in s["by_position_class"].items():
+                lines.append(
+                    f"| {cls.replace('|', ' / ')} | {row['eligible_instances']} | "
+                    f"{row['gap_instances']} | {100 * row['gap_fraction']:.2f}% |"
+                )
+            lines.append("")
+        docs.write_text("\n".join(lines), encoding="utf-8")
+    if not quiet:
+        print(f"wrote {out}")
+        print(json.dumps({"frame_records": frame_records, "baseline_gap_instances": baseline_gap_instances, "aggregate": aggregate, "margin_n": len(margin_records), "rho": rho}, indent=2))
+    return payload
 
 
 if __name__ == "__main__":

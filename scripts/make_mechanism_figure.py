@@ -18,8 +18,8 @@ SLATE = "#637381"
 PALE = "#EAF3F4"
 INK = "#20252B"
 
-fig = plt.figure(figsize=(12.2, 4.25), dpi=220, facecolor="white")
-gs = fig.add_gridspec(1, 3, width_ratios=[1.0, 1.15, 1.05], wspace=0.28)
+fig = plt.figure(figsize=(12.8, 4.35), dpi=220, facecolor="white")
+gs = fig.add_gridspec(1, 4, width_ratios=[0.95, 1.05, 0.95, 1.05], wspace=0.24)
 
 # Panel (a): canonical frame
 ax = fig.add_subplot(gs[0, 0])
@@ -45,6 +45,9 @@ ax.text(-0.37, 1.08, r"local $w_r=0$", color=TEAL, fontsize=9, rotation=90, va="
 ax.add_patch(FancyArrowPatch((1.45, 0.98), (1.45, 0.58), arrowstyle="-|>", mutation_scale=12, lw=2.0, color=GOLD))
 ax.text(1.49, 0.78, "global\nsway", color=GOLD, fontsize=9, va="center")
 ax.text(0.0, -0.22, r"$\lambda_{\rm loc}$ versus $\lambda_{\rm full}$", color=INK, fontsize=9)
+# threshold bands
+ax.add_patch(FancyBboxPatch((1.02, 0.08), 0.62, 0.18, boxstyle="round,pad=0.02", facecolor=PALE, edgecolor=GOLD, lw=1.0))
+ax.text(1.33, 0.17, r"two threshold bands", ha="center", va="center", fontsize=8, color=GOLD)
 
 # Panel (b): interval certificate
 ax = fig.add_subplot(gs[0, 1])
@@ -73,8 +76,29 @@ ax.add_patch(FancyBboxPatch((0.10, 0.30), 4.72, 0.62, boxstyle="round,pad=0.05,r
 ax.text(2.46, 0.67, r"$\Delta[a,b]=\text{entry}+\sum\text{interior}+\text{exit}$", ha="center", va="center", fontsize=11, color=INK)
 ax.text(2.46, 0.43, r"all margins $\geq 0$ $\Longleftrightarrow$ local screen is exact", ha="center", va="center", fontsize=8.5, color=INK)
 
-# Panel (c): strict separation
+# Panel (c): certificate-gated workflow
 ax = fig.add_subplot(gs[0, 2])
+ax.axis("off")
+ax.set_xlim(-0.05, 1.05)
+ax.set_ylim(-0.05, 1.05)
+ax.text(-0.02, 1.02, "(c) Gated workflow", color=NAVY, fontsize=11, weight="bold", va="top")
+steps = [
+    ("1", "Local screen", TEAL),
+    ("2", "Interval scan", GOLD),
+    ("3", "Exact or complete", RED),
+]
+y = 0.82
+for num, txt, col in steps:
+    ax.add_patch(FancyBboxPatch((0.08, y - 0.08), 0.84, 0.14, boxstyle="round,pad=0.03", facecolor="white", edgecolor=col, lw=1.4))
+    ax.text(0.14, y, num, color=col, fontsize=10, weight="bold", va="center")
+    ax.text(0.24, y, txt, color=INK, fontsize=9, va="center")
+    if y > 0.35:
+        ax.add_patch(FancyArrowPatch((0.50, y - 0.10), (0.50, y - 0.18), arrowstyle="-|>", mutation_scale=10, lw=1.2, color=SLATE))
+    y -= 0.22
+ax.text(0.08, 0.06, "Report exact only if\nall margins are nonnegative", color=INK, fontsize=8.5)
+
+# Panel (d): strict separation
+ax = fig.add_subplot(gs[0, 3])
 ax.set_xlim(-0.3, 5.4)
 ax.set_ylim(0, 22.5)
 ax.spines[["top", "right"]].set_visible(False)
@@ -84,7 +108,7 @@ ax.tick_params(colors=SLATE, labelsize=8)
 ax.set_xticks([0.9, 2.3, 3.7])
 ax.set_xticklabels(["$k=1$", "$k=2$", "$k=5$"], color=INK)
 ax.set_ylabel("first-order capacity", color=INK, fontsize=9)
-ax.set_title("(c) Strict separation", loc="left", color=NAVY, fontsize=11, weight="bold", pad=10)
+ax.set_title("(d) Strict separation", loc="left", color=NAVY, fontsize=11, weight="bold", pad=10)
 ks = [1, 2, 5]
 local = [4, 8, 20]
 full = [4, 5, 5]

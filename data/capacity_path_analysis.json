@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "baseline_clean_frames": 2026,
+  "frozen_alignment": {
+    "componentwise_strengthening": {
+      "frames_with_new_gap_match": true,
+      "gap_instances_match": true
+    },
+    "geometric_mean_one_redistribution": {
+      "frames_with_new_gap_match": true,
+      "gap_instances_match": true
+    }
+  },
+  "elapsed_seconds": 46.84,
+  "treatments": {
+    "componentwise_strengthening": {
+      "baseline_clean_frames": 2026,
+      "frames_with_new_gap": 435,
+      "frame_fraction": 0.21470878578479763,
+      "eligible_instances": 52158,
+      "gap_instances": 2785,
+      "gap_instance_fraction": 0.05339545227961195,
+      "by_position_class": {
+        "ground|exterior": {
+          "eligible_instances": 4052,
+          "gap_instances": 355,
+          "gap_fraction": 0.08761105626850937
+        },
+        "ground|interior_bay": {
+          "eligible_instances": 4186,
+          "gap_instances": 311,
+          "gap_fraction": 0.07429526994744386
+        },
+        "interior_story|exterior": {
+          "eligible_instances": 17452,
+          "gap_instances": 1111,
+          "gap_fraction": 0.06366032546413018
+        },
+        "interior_story|interior_bay": {
+          "eligible_instances": 18230,
+          "gap_instances": 1008,
+          "gap_fraction": 0.05529347229840922
+        },
+        "roof|exterior": {
+          "eligible_instances": 4052,
+          "gap_instances": 0,
+          "gap_fraction": 0.0
+        },
+        "roof|interior_bay": {
+          "eligible_instances": 4186,
+          "gap_instances": 0,
+          "gap_fraction": 0.0
+        }
+      }
+    },
+    "geometric_mean_one_redistribution": {
+      "baseline_clean_frames": 2026,
+      "frames_with_new_gap": 1143,
+      "frame_fraction": 0.5641658440276407,
+      "eligible_instances": 52158,
+      "gap_instances": 9546,
+      "gap_instance_fraction": 0.1830208213505119,
+      "by_position_class": {
+        "ground|exterior": {
+          "eligible_instances": 4052,
+          "gap_instances": 989,
+          "gap_fraction": 0.24407699901283317
+        },
+        "ground|interior_bay": {
+          "eligible_instances": 4186,
+          "gap_instances": 1080,
+          "gap_fraction": 0.25800286669851885
+        },
+        "interior_story|exterior": {
+          "eligible_instances": 17452,
+          "gap_instances": 3586,
+          "gap_fraction": 0.20547788219115287
+        },
+        "interior_story|interior_bay": {
+          "eligible_instances": 18230,
+          "gap_instances": 3872,
+          "gap_fraction": 0.21239714755896874
+        },
+        "roof|exterior": {
+          "eligible_instances": 4052,
+          "gap_instances": 3,
+          "gap_fraction": 0.0007403751233958539
+        },
+        "roof|interior_bay": {
+          "eligible_instances": 4186,
+          "gap_instances": 16,
+          "gap_fraction": 0.003822264691829909
+        }
+      }
+    }
+  }
+}
