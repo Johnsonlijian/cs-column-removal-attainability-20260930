@@ -1,0 +1,639 @@
+{
+  "homogeneity_checks": 108,
+  "homogeneity_pass": 108,
+  "worst_error": 1.8189894035458565e-12,
+  "linearity_checks": 18,
+  "linearity_pass": 18,
+  "rows": [
+    {
+      "config": 0,
+      "H": 2,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 120.75
+        },
+        {
+          "alpha": 0.5,
+          "margin": 241.5
+        },
+        {
+          "alpha": 1.0,
+          "margin": 483.0
+        },
+        {
+          "alpha": 2.0,
+          "margin": 966.0
+        },
+        {
+          "alpha": 5.0,
+          "margin": 2415.0
+        },
+        {
+          "alpha": 8.0,
+          "margin": 3864.0
+        }
+      ]
+    },
+    {
+      "config": 0,
+      "H": 2,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 120.75
+        },
+        {
+          "alpha": 0.5,
+          "margin": 241.5
+        },
+        {
+          "alpha": 1.0,
+          "margin": 483.0
+        },
+        {
+          "alpha": 2.0,
+          "margin": 966.0
+        },
+        {
+          "alpha": 5.0,
+          "margin": 2415.0
+        },
+        {
+          "alpha": 8.0,
+          "margin": 3864.0
+        }
+      ]
+    },
+    {
+      "config": 0,
+      "H": 2,
+      "B": 2,
+      "removal": [
+        2,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 183.885
+        },
+        {
+          "alpha": 0.5,
+          "margin": 367.77
+        },
+        {
+          "alpha": 1.0,
+          "margin": 735.54
+        },
+        {
+          "alpha": 2.0,
+          "margin": 1471.08
+        },
+        {
+          "alpha": 5.0,
+          "margin": 3677.7
+        },
+        {
+          "alpha": 8.0,
+          "margin": 5884.32
+        }
+      ]
+    },
+    {
+      "config": 1,
+      "H": 2,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 260.04375
+        },
+        {
+          "alpha": 0.5,
+          "margin": 520.0875
+        },
+        {
+          "alpha": 1.0,
+          "margin": 1040.175
+        },
+        {
+          "alpha": 2.0,
+          "margin": 2080.35
+        },
+        {
+          "alpha": 5.0,
+          "margin": 5200.875
+        },
+        {
+          "alpha": 8.0,
+          "margin": 8321.4
+        }
+      ]
+    },
+    {
+      "config": 1,
+      "H": 2,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 260.04375
+        },
+        {
+          "alpha": 0.5,
+          "margin": 520.0875
+        },
+        {
+          "alpha": 1.0,
+          "margin": 1040.175
+        },
+        {
+          "alpha": 2.0,
+          "margin": 2080.35
+        },
+        {
+          "alpha": 5.0,
+          "margin": 5200.875
+        },
+        {
+          "alpha": 8.0,
+          "margin": 8321.4
+        }
+      ]
+    },
+    {
+      "config": 1,
+      "H": 2,
+      "B": 3,
+      "removal": [
+        2,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 323.17875
+        },
+        {
+          "alpha": 0.5,
+          "margin": 646.3575
+        },
+        {
+          "alpha": 1.0,
+          "margin": 1292.715
+        },
+        {
+          "alpha": 2.0,
+          "margin": 2585.43
+        },
+        {
+          "alpha": 5.0,
+          "margin": 6463.575
+        },
+        {
+          "alpha": 8.0,
+          "margin": 10341.72
+        }
+      ]
+    },
+    {
+      "config": 2,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": -131.79
+        },
+        {
+          "alpha": 0.5,
+          "margin": -263.58
+        },
+        {
+          "alpha": 1.0,
+          "margin": -527.16
+        },
+        {
+          "alpha": 2.0,
+          "margin": -1054.32
+        },
+        {
+          "alpha": 5.0,
+          "margin": -2635.8
+        },
+        {
+          "alpha": 8.0,
+          "margin": -4217.28
+        }
+      ]
+    },
+    {
+      "config": 2,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": -131.79
+        },
+        {
+          "alpha": 0.5,
+          "margin": -263.58
+        },
+        {
+          "alpha": 1.0,
+          "margin": -527.16
+        },
+        {
+          "alpha": 2.0,
+          "margin": -1054.32
+        },
+        {
+          "alpha": 5.0,
+          "margin": -2635.8
+        },
+        {
+          "alpha": 8.0,
+          "margin": -4217.28
+        }
+      ]
+    },
+    {
+      "config": 2,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 152.3175
+        },
+        {
+          "alpha": 0.5,
+          "margin": 304.635
+        },
+        {
+          "alpha": 1.0,
+          "margin": 609.27
+        },
+        {
+          "alpha": 2.0,
+          "margin": 1218.54
+        },
+        {
+          "alpha": 5.0,
+          "margin": 3046.35
+        },
+        {
+          "alpha": 8.0,
+          "margin": 4874.16
+        }
+      ]
+    },
+    {
+      "config": 3,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 365.01
+        },
+        {
+          "alpha": 0.5,
+          "margin": 730.02
+        },
+        {
+          "alpha": 1.0,
+          "margin": 1460.04
+        },
+        {
+          "alpha": 2.0,
+          "margin": 2920.08
+        },
+        {
+          "alpha": 5.0,
+          "margin": 7300.200000000001
+        },
+        {
+          "alpha": 8.0,
+          "margin": 11680.32
+        }
+      ]
+    },
+    {
+      "config": 3,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 54.85500000000002
+        },
+        {
+          "alpha": 0.5,
+          "margin": 109.71000000000004
+        },
+        {
+          "alpha": 1.0,
+          "margin": 219.42000000000007
+        },
+        {
+          "alpha": 2.0,
+          "margin": 438.84000000000015
+        },
+        {
+          "alpha": 5.0,
+          "margin": 1097.1
+        },
+        {
+          "alpha": 8.0,
+          "margin": 1755.3600000000006
+        }
+      ]
+    },
+    {
+      "config": 3,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 351.98625
+        },
+        {
+          "alpha": 0.5,
+          "margin": 703.9725
+        },
+        {
+          "alpha": 1.0,
+          "margin": 1407.945
+        },
+        {
+          "alpha": 2.0,
+          "margin": 2815.89
+        },
+        {
+          "alpha": 5.0,
+          "margin": 7039.725
+        },
+        {
+          "alpha": 8.0,
+          "margin": 11263.56
+        }
+      ]
+    },
+    {
+      "config": 4,
+      "H": 6,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": -68.65500000000003
+        },
+        {
+          "alpha": 0.5,
+          "margin": -137.31000000000006
+        },
+        {
+          "alpha": 1.0,
+          "margin": -274.6200000000001
+        },
+        {
+          "alpha": 2.0,
+          "margin": -549.2400000000002
+        },
+        {
+          "alpha": 5.0,
+          "margin": -1373.0999999999997
+        },
+        {
+          "alpha": 8.0,
+          "margin": -2196.960000000001
+        }
+      ]
+    },
+    {
+      "config": 4,
+      "H": 6,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": -68.65500000000003
+        },
+        {
+          "alpha": 0.5,
+          "margin": -137.31000000000006
+        },
+        {
+          "alpha": 1.0,
+          "margin": -274.6200000000001
+        },
+        {
+          "alpha": 2.0,
+          "margin": -549.2400000000002
+        },
+        {
+          "alpha": 5.0,
+          "margin": -1373.0999999999997
+        },
+        {
+          "alpha": 8.0,
+          "margin": -2196.960000000001
+        }
+      ]
+    },
+    {
+      "config": 4,
+      "H": 6,
+      "B": 2,
+      "removal": [
+        6,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 168.10125
+        },
+        {
+          "alpha": 0.5,
+          "margin": 336.2025
+        },
+        {
+          "alpha": 1.0,
+          "margin": 672.405
+        },
+        {
+          "alpha": 2.0,
+          "margin": 1344.81
+        },
+        {
+          "alpha": 5.0,
+          "margin": 3362.025
+        },
+        {
+          "alpha": 8.0,
+          "margin": 5379.24
+        }
+      ]
+    },
+    {
+      "config": 5,
+      "H": 3,
+      "B": 4,
+      "removal": [
+        1,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 548.895
+        },
+        {
+          "alpha": 0.5,
+          "margin": 1097.79
+        },
+        {
+          "alpha": 1.0,
+          "margin": 2195.58
+        },
+        {
+          "alpha": 2.0,
+          "margin": 4391.16
+        },
+        {
+          "alpha": 5.0,
+          "margin": 10977.9
+        },
+        {
+          "alpha": 8.0,
+          "margin": 17564.64
+        }
+      ]
+    },
+    {
+      "config": 5,
+      "H": 3,
+      "B": 4,
+      "removal": [
+        1,
+        2
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 304.635
+        },
+        {
+          "alpha": 0.5,
+          "margin": 609.27
+        },
+        {
+          "alpha": 1.0,
+          "margin": 1218.54
+        },
+        {
+          "alpha": 2.0,
+          "margin": 2437.08
+        },
+        {
+          "alpha": 5.0,
+          "margin": 6092.700000000001
+        },
+        {
+          "alpha": 8.0,
+          "margin": 9748.32
+        }
+      ]
+    },
+    {
+      "config": 5,
+      "H": 3,
+      "B": 4,
+      "removal": [
+        3,
+        0
+      ],
+      "margin_sequence": [
+        {
+          "alpha": 0.25,
+          "margin": 504.30375
+        },
+        {
+          "alpha": 0.5,
+          "margin": 1008.6075
+        },
+        {
+          "alpha": 1.0,
+          "margin": 2017.215
+        },
+        {
+          "alpha": 2.0,
+          "margin": 4034.43
+        },
+        {
+          "alpha": 5.0,
+          "margin": 10086.075
+        },
+        {
+          "alpha": 8.0,
+          "margin": 16137.72
+        }
+      ]
+    }
+  ]
+}
