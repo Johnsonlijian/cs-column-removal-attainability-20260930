@@ -1,0 +1,527 @@
+{
+  "note": "Lambda* = kappa with margin(kappa, 1) = 0; unique by the monotone-decreasing property",
+  "reference_beam_kNm": 126.27,
+  "reference_column_kNm": 304.635,
+  "rows": [
+    {
+      "kind": "exterior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": 16.658749995171092,
+      "note": "ok"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": 25.300624999334104,
+      "note": "ok"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": 32.442500012228265,
+      "note": "ok"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": 48.97625000658445,
+      "note": "ok"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        0
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "exterior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        0
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": 16.658749995171092,
+      "note": "ok"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": 25.300624999334104,
+      "note": "ok"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 0.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": 32.442500012228265,
+      "note": "ok"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": 48.97625000658445,
+      "note": "ok"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 1.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 2.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 3.0,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 2,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        1,
+        1
+      ],
+      "storey": "ground",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "kind": "interior",
+      "C_over_beam": 4.5,
+      "H": 4,
+      "B": 3,
+      "removal": [
+        4,
+        1
+      ],
+      "storey": "roof",
+      "kappa": null,
+      "note": "still exact at kappa=64.0"
+    }
+  ]
+}

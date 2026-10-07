@@ -1,0 +1,101 @@
+{
+  "note": "M_int fixed at one reference beam; Lambda* solves margin(kappa, 1) = 0; search range kappa <= 64",
+  "rows": [
+    {
+      "C_over_M_int": 0.25,
+      "B": 2,
+      "Lambda": 8.766875001310837,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 0.25,
+      "B": 3,
+      "Lambda": 13.462812503043097,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 0.5,
+      "B": 2,
+      "Lambda": 16.658749995171092,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 0.5,
+      "B": 3,
+      "Lambda": 25.300624999334104,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 0.75,
+      "B": 2,
+      "Lambda": 24.550625000032596,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 0.75,
+      "B": 3,
+      "Lambda": 37.138437513960525,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 1.0,
+      "B": 2,
+      "Lambda": 32.442500012228265,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 1.0,
+      "B": 3,
+      "Lambda": 48.97625000658445,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 1.25,
+      "B": 2,
+      "Lambda": 40.33437498775311,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 1.25,
+      "B": 3,
+      "Lambda": 60.814062513876706,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 1.5,
+      "B": 2,
+      "Lambda": 48.22624999261461,
+      "note": "ok"
+    },
+    {
+      "C_over_M_int": 1.5,
+      "B": 3,
+      "Lambda": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "C_over_M_int": 2.0,
+      "B": 2,
+      "Lambda": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "C_over_M_int": 2.0,
+      "B": 3,
+      "Lambda": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "C_over_M_int": 3.0,
+      "B": 2,
+      "Lambda": null,
+      "note": "still exact at kappa=64.0"
+    },
+    {
+      "C_over_M_int": 3.0,
+      "B": 3,
+      "Lambda": null,
+      "note": "still exact at kappa=64.0"
+    }
+  ]
+}
