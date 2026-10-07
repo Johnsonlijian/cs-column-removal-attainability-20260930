@@ -1,0 +1,449 @@
+{
+  "rows": [
+    {
+      "tag": "beam_1.0",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "beam_1.1",
+      "beam_factors": [
+        1.1,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 381.9839999999998,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "beam_1.25",
+      "beam_factors": [
+        1.25,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 230.4599999999999,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "beam_1.5",
+      "beam_factors": [
+        1.5,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": -22.08000000000007,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 2,
+      "n_removals": 12
+    },
+    {
+      "tag": "beam_2.0",
+      "beam_factors": [
+        2.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": -527.16,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 6,
+      "n_removals": 12
+    },
+    {
+      "tag": "beam_3.0",
+      "beam_factors": [
+        3.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": -1463.1450000000002,
+      "worst_removal": [
+        1,
+        1
+      ],
+      "n_inexact": 6,
+      "n_removals": 12
+    },
+    {
+      "tag": "col_1.0",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "col_1.5",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.5,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "col_2.0",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "col_3.0",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        3.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "both_1.0",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "both_2.0",
+      "beam_factors": [
+        2.0,
+        2.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 356.72999999999996,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "both_5.0",
+      "beam_factors": [
+        5.0,
+        5.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 0.0,
+      "worst_removal": [
+        1,
+        1
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "level_1.0_1.0",
+      "beam_factors": [
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "level_2.0_2.0",
+      "beam_factors": [
+        2.0,
+        2.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 356.72999999999996,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "level_5.0_5.0",
+      "beam_factors": [
+        5.0,
+        5.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 0.0,
+      "worst_removal": [
+        1,
+        1
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "level_1.0_1.25",
+      "beam_factors": [
+        1.25,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 230.4599999999999,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "level_4.0_5.0",
+      "beam_factors": [
+        5.0,
+        4.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": -713.4599999999999,
+      "worst_removal": [
+        1,
+        1
+      ],
+      "n_inexact": 5,
+      "n_removals": 12
+    },
+    {
+      "tag": "level_0.5_0.625",
+      "beam_factors": [
+        0.625,
+        0.5
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 419.865,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12
+    },
+    {
+      "tag": "B3_uniform",
+      "beam_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16
+    },
+    {
+      "tag": "B3_far bay raised",
+      "beam_factors": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 535.095,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16
+    },
+    {
+      "tag": "B3_middle bay raised",
+      "beam_factors": [
+        1.0,
+        2.0,
+        1.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 661.365,
+      "worst_removal": [
+        1,
+        1
+      ],
+      "n_inexact": 0,
+      "n_removals": 16
+    },
+    {
+      "tag": "B3_right bay raised",
+      "beam_factors": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "column_factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 535.095,
+      "worst_removal": [
+        1,
+        2
+      ],
+      "n_inexact": 0,
+      "n_removals": 16
+    }
+  ]
+}

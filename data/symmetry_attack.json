@@ -1,0 +1,1271 @@
+{
+  "results": [
+    {
+      "family": "span_ratio_1.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_1.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_1.5",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        9.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_1.5",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        9.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_2.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        12.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_2.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        12.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_3.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        18.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_3.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        18.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_5.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        30.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "span_ratio_5.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        30.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_1.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_1.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_1.5",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_1.5",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_2.5",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_2.5",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_4.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "load_skew_4.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "bay_factor_1.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        1.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": 483.0,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 12,
+      "exact_all": true
+    },
+    {
+      "family": "bay_factor_1.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "bay_factor_1.5",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        1.5,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": -22.08000000000007,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 1,
+      "n_removals": 12,
+      "exact_all": false
+    },
+    {
+      "family": "bay_factor_1.5",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        1.5,
+        1.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": 787.635,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "bay_factor_2.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        2.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": -527.16,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 4,
+      "n_removals": 12,
+      "exact_all": false
+    },
+    {
+      "family": "bay_factor_2.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": 535.095,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "bay_factor_3.0",
+      "H": 4,
+      "B": 2,
+      "spans": [
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        3.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": -1537.3200000000002,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 5,
+      "n_removals": 12,
+      "exact_all": false
+    },
+    {
+      "family": "bay_factor_3.0",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": [
+        3.0,
+        1.0,
+        1.0
+      ],
+      "story_factors": null,
+      "worst_margin": -475.0650000000001,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 2,
+      "n_removals": 16,
+      "exact_all": false
+    },
+    {
+      "family": "story_uniform",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "story_soft_ground",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        0.5,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 913.905,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "story_stiff_ground",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        2.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "story_linear_taper",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        1.6,
+        1.4000000000000001,
+        1.2,
+        1.0
+      ],
+      "worst_margin": 1014.921,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "story_alternating",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        1.0,
+        1.6,
+        1.0,
+        1.6
+      ],
+      "worst_margin": 1368.4769999999999,
+      "worst_removal": [
+        2,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "story_uniform",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        5,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "story_soft_ground",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 913.905,
+      "worst_removal": [
+        1,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "story_stiff_ground",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        5,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "story_linear_taper",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        1.6,
+        1.48,
+        1.36,
+        1.24,
+        1.12,
+        1.0
+      ],
+      "worst_margin": 1025.0226,
+      "worst_removal": [
+        5,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "story_alternating",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": [
+        1.0,
+        1.6,
+        1.0,
+        1.6,
+        1.0,
+        1.6
+      ],
+      "worst_margin": 1368.4769999999999,
+      "worst_removal": [
+        4,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "height_uniform",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "height_graded",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        5.0,
+        4.333333333333333,
+        3.666666666666667,
+        3.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "height_tall_ground",
+      "H": 4,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        6.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        3,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 16,
+      "exact_all": true
+    },
+    {
+      "family": "height_uniform",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        5,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "height_graded",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        5.0,
+        4.6,
+        4.2,
+        3.8,
+        3.4,
+        3.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        5,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    },
+    {
+      "family": "height_tall_ground",
+      "H": 6,
+      "B": 3,
+      "spans": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "heights": [
+        6.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "beam": "W18X40",
+      "column": "W14X109",
+      "bay_factors": null,
+      "story_factors": null,
+      "worst_margin": 1040.175,
+      "worst_removal": [
+        5,
+        0
+      ],
+      "n_inexact": 0,
+      "n_removals": 24,
+      "exact_all": true
+    }
+  ]
+}
