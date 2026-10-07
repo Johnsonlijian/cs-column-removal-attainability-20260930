@@ -1,0 +1,125 @@
+{
+  "Mp_ref_kNm": 126.27,
+  "rows": [
+    {
+      "case": "balanced 1.0/1.0",
+      "beam_left": 1.0,
+      "beam_right": 1.0,
+      "engine_margin": 483.0,
+      "closed_form": 483.0,
+      "agree": true,
+      "bands": [
+        {
+          "q": 0,
+          "width": 0.16666666666666666,
+          "t": 0.08333333333333333,
+          "min_interval": 483.0,
+          "witness": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "case": "imbalance 1.25/1.0",
+      "beam_left": 1.25,
+      "beam_right": 1.0,
+      "engine_margin": 230.4599999999999,
+      "closed_form": 230.4599999999999,
+      "agree": true,
+      "bands": [
+        {
+          "q": 0,
+          "width": 0.16666666666666666,
+          "t": 0.08333333333333333,
+          "min_interval": 230.4599999999999,
+          "witness": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "case": "imbalance 1.5/1.0",
+      "beam_left": 1.5,
+      "beam_right": 1.0,
+      "engine_margin": -22.08000000000007,
+      "closed_form": -22.08000000000007,
+      "agree": true,
+      "bands": [
+        {
+          "q": 0,
+          "width": 0.16666666666666666,
+          "t": 0.08333333333333333,
+          "min_interval": -22.08000000000007,
+          "witness": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "case": "imbalance 2.0/1.0",
+      "beam_left": 2.0,
+      "beam_right": 1.0,
+      "engine_margin": -527.16,
+      "closed_form": -527.16,
+      "agree": true,
+      "bands": [
+        {
+          "q": 0,
+          "width": 0.16666666666666666,
+          "t": 0.08333333333333333,
+          "min_interval": -527.16,
+          "witness": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "case": "imbalance 5.0/4.0",
+      "beam_left": 5.0,
+      "beam_right": 4.0,
+      "engine_margin": -408.82500000000005,
+      "closed_form": -408.82500000000005,
+      "agree": true,
+      "bands": [
+        {
+          "q": 0,
+          "width": 0.16666666666666666,
+          "t": 0.08333333333333333,
+          "min_interval": -408.82500000000005,
+          "witness": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "case": "imbalance 1.0/2.0",
+      "beam_left": 1.0,
+      "beam_right": 2.0,
+      "engine_margin": 1040.175,
+      "closed_form": 1040.175,
+      "agree": true,
+      "bands": [
+        {
+          "q": 0,
+          "width": 0.16666666666666666,
+          "t": 0.08333333333333333,
+          "min_interval": 1040.175,
+          "witness": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}
