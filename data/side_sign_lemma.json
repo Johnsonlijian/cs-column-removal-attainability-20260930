@@ -1,0 +1,10 @@
+{
+  "intervals_sampled": 4752,
+  "intact_positive": 2818,
+  "intact_negative": 1098,
+  "intact_zero": 836,
+  "detached_positive": 1813,
+  "detached_negative": 2456,
+  "worst_intact_negative": -12.000000000926953,
+  "worst_detached_positive": 12.000000000926953
+}

@@ -1,0 +1,2809 @@
+{
+  "claim": "margin = -8 M_det - 4 M_int + C (interior); margin = -8 M_det + 4 M_int + C (exterior); coefficients in units of the reference capacities",
+  "interior_matches": 0,
+  "interior_total": 100,
+  "exterior_matches": 0,
+  "exterior_total": 100,
+  "rows": [
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": 241.5,
+      "pred_interior": -605.3025,
+      "pred_exterior": -100.2225,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": 546.135,
+      "pred_interior": -452.985,
+      "pred_exterior": 52.095,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": 1155.405,
+      "pred_interior": -148.35000000000002,
+      "pred_exterior": 356.73,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 2373.945,
+      "pred_interior": 460.91999999999996,
+      "pred_exterior": 966.0,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -263.58,
+      "pred_interior": -857.8425,
+      "pred_exterior": 152.3175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 41.05500000000005,
+      "pred_interior": -705.525,
+      "pred_exterior": 304.635,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 650.325,
+      "pred_interior": -400.89,
+      "pred_exterior": 609.27,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 1868.8650000000002,
+      "pred_interior": 208.38,
+      "pred_exterior": 1218.54,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": -731.5725000000001,
+      "pred_interior": -1110.3825000000002,
+      "pred_exterior": 404.8575,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": -464.0250000000001,
+      "pred_interior": -958.065,
+      "pred_exterior": 557.175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 145.245,
+      "pred_interior": -653.4300000000001,
+      "pred_exterior": 861.81,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 1363.7850000000003,
+      "pred_interior": -44.16000000000008,
+      "pred_exterior": 1471.08,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": -1099.3425,
+      "pred_interior": -1362.9225000000001,
+      "pred_exterior": 657.3975,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": -969.105,
+      "pred_interior": -1210.605,
+      "pred_exterior": 809.7149999999999,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": -359.835,
+      "pred_interior": -905.97,
+      "pred_exterior": 1114.35,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 858.7050000000004,
+      "pred_interior": -296.70000000000005,
+      "pred_exterior": 1723.62,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": -1486.0875,
+      "pred_interior": -1868.0025,
+      "pred_exterior": 1162.4775,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": -1883.01,
+      "pred_interior": -1715.685,
+      "pred_exterior": 1314.795,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": -1369.9950000000001,
+      "pred_interior": -1411.05,
+      "pred_exterior": 1619.43,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": -151.4549999999997,
+      "pred_interior": -801.78,
+      "pred_exterior": 2228.7,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -263.58,
+      "pred_interior": -1110.3825000000002,
+      "pred_exterior": -605.3025,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": 41.05500000000005,
+      "pred_interior": -958.065,
+      "pred_exterior": -452.985,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": 650.325,
+      "pred_interior": -653.4300000000001,
+      "pred_exterior": -148.35000000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 1868.8650000000002,
+      "pred_interior": -44.16000000000008,
+      "pred_exterior": 460.91999999999996,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": 178.36499999999998,
+      "pred_interior": -1362.9225000000001,
+      "pred_exterior": -352.7625,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 483.0,
+      "pred_interior": -1210.605,
+      "pred_exterior": -200.445,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 1092.27,
+      "pred_interior": -905.97,
+      "pred_exterior": 104.19,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 2310.81,
+      "pred_interior": -296.70000000000005,
+      "pred_exterior": 713.46,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": -289.62750000000005,
+      "pred_interior": -1615.4625,
+      "pred_exterior": -100.22249999999997,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": -22.08000000000007,
+      "pred_interior": -1463.145,
+      "pred_exterior": 52.09500000000003,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 587.19,
+      "pred_interior": -1158.51,
+      "pred_exterior": 356.73,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 1805.73,
+      "pred_interior": -549.24,
+      "pred_exterior": 966.0,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": -731.5725,
+      "pred_interior": -1868.0025,
+      "pred_exterior": 152.3175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": -527.16,
+      "pred_interior": -1715.685,
+      "pred_exterior": 304.635,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 82.1100000000001,
+      "pred_interior": -1411.05,
+      "pred_exterior": 609.27,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 1300.65,
+      "pred_interior": -801.78,
+      "pred_exterior": 1218.54,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": -1192.4924999999998,
+      "pred_interior": -2373.0825,
+      "pred_exterior": 657.3975,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": -1463.1450000000002,
+      "pred_interior": -2220.7650000000003,
+      "pred_exterior": 809.715,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": -928.0500000000002,
+      "pred_interior": -1916.13,
+      "pred_exterior": 1114.35,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 290.49,
+      "pred_interior": -1306.8600000000001,
+      "pred_exterior": 1723.62,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -731.5725000000001,
+      "pred_interior": -1615.4625,
+      "pred_exterior": -1110.3825000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": -464.0250000000001,
+      "pred_interior": -1463.145,
+      "pred_exterior": -958.065,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": 145.245,
+      "pred_interior": -1158.51,
+      "pred_exterior": -653.4300000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 1363.7850000000003,
+      "pred_interior": -549.24,
+      "pred_exterior": -44.16000000000008,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -289.62750000000005,
+      "pred_interior": -1868.0025,
+      "pred_exterior": -857.8425000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -22.08000000000007,
+      "pred_interior": -1715.685,
+      "pred_exterior": -705.5250000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 587.19,
+      "pred_interior": -1411.05,
+      "pred_exterior": -400.8900000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 1805.73,
+      "pred_interior": -801.78,
+      "pred_exterior": 208.37999999999988,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": 115.22999999999996,
+      "pred_interior": -2120.5425,
+      "pred_exterior": -605.3025,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": 419.86499999999995,
+      "pred_interior": -1968.2250000000001,
+      "pred_exterior": -452.985,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 1029.135,
+      "pred_interior": -1663.5900000000001,
+      "pred_exterior": -148.35000000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 2247.6749999999997,
+      "pred_interior": -1054.3200000000002,
+      "pred_exterior": 460.91999999999996,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": -326.715,
+      "pred_interior": -2373.0825,
+      "pred_exterior": -352.76250000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": -85.21499999999997,
+      "pred_interior": -2220.7650000000003,
+      "pred_exterior": -200.44500000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 524.0550000000001,
+      "pred_interior": -1916.13,
+      "pred_exterior": 104.18999999999994,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 1742.5949999999998,
+      "pred_interior": -1306.8600000000001,
+      "pred_exterior": 713.4599999999999,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": -913.9049999999999,
+      "pred_interior": -2878.1625,
+      "pred_exterior": 152.3175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": -1021.2,
+      "pred_interior": -2725.8450000000003,
+      "pred_exterior": 304.635,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": -486.1050000000001,
+      "pred_interior": -2421.21,
+      "pred_exterior": 609.27,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 732.435,
+      "pred_interior": -1811.94,
+      "pred_exterior": 1218.54,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -1099.3425,
+      "pred_interior": -2120.5425,
+      "pred_exterior": -1615.4625,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": -969.105,
+      "pred_interior": -1968.2250000000001,
+      "pred_exterior": -1463.145,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": -359.835,
+      "pred_interior": -1663.5900000000001,
+      "pred_exterior": -1158.51,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 858.7050000000004,
+      "pred_interior": -1054.3200000000002,
+      "pred_exterior": -549.24,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -731.5725,
+      "pred_interior": -2373.0825,
+      "pred_exterior": -1362.9225000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -527.16,
+      "pred_interior": -2220.7650000000003,
+      "pred_exterior": -1210.605,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 82.1100000000001,
+      "pred_interior": -1916.13,
+      "pred_exterior": -905.97,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 1300.65,
+      "pred_interior": -1306.8600000000001,
+      "pred_exterior": -296.70000000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": -326.715,
+      "pred_interior": -2625.6225,
+      "pred_exterior": -1110.3824999999997,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": -85.21499999999997,
+      "pred_interior": -2473.3050000000003,
+      "pred_exterior": -958.0649999999998,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 524.0550000000001,
+      "pred_interior": -2168.67,
+      "pred_exterior": -653.4299999999998,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 1742.5949999999998,
+      "pred_interior": -1559.4,
+      "pred_exterior": -44.159999999999854,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": 52.09499999999997,
+      "pred_interior": -2878.1625,
+      "pred_exterior": -857.8425,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": 356.72999999999996,
+      "pred_interior": -2725.8450000000003,
+      "pred_exterior": -705.525,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 966.0,
+      "pred_interior": -2421.21,
+      "pred_exterior": -400.89,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 2184.54,
+      "pred_interior": -1811.94,
+      "pred_exterior": 208.38,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": -609.27,
+      "pred_interior": -3383.2425,
+      "pred_exterior": -352.76249999999993,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": -579.2550000000001,
+      "pred_interior": -3230.925,
+      "pred_exterior": -200.44499999999994,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": -44.16000000000014,
+      "pred_interior": -2926.29,
+      "pred_exterior": 104.19000000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 1174.38,
+      "pred_interior": -2317.02,
+      "pred_exterior": 713.46,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -1486.0875,
+      "pred_interior": -3130.7025,
+      "pred_exterior": -2625.6225,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": -1883.01,
+      "pred_interior": -2978.385,
+      "pred_exterior": -2473.3050000000003,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": -1369.9950000000001,
+      "pred_interior": -2673.75,
+      "pred_exterior": -2168.67,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": -151.4549999999997,
+      "pred_interior": -2064.48,
+      "pred_exterior": -1559.4,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -1192.4924999999998,
+      "pred_interior": -3383.2425,
+      "pred_exterior": -2373.0825,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -1463.1450000000002,
+      "pred_interior": -3230.925,
+      "pred_exterior": -2220.7650000000003,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": -928.0500000000002,
+      "pred_interior": -2926.29,
+      "pred_exterior": -1916.13,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 290.49,
+      "pred_interior": -2317.02,
+      "pred_exterior": -1306.8600000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": -913.9049999999999,
+      "pred_interior": -3635.7825,
+      "pred_exterior": -2120.5425,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": -1021.2,
+      "pred_interior": -3483.465,
+      "pred_exterior": -1968.2250000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": -486.1050000000001,
+      "pred_interior": -3178.83,
+      "pred_exterior": -1663.5900000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 732.435,
+      "pred_interior": -2569.56,
+      "pred_exterior": -1054.3200000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": -609.27,
+      "pred_interior": -3888.3224999999998,
+      "pred_exterior": -1868.0025,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": -579.2550000000001,
+      "pred_interior": -3736.005,
+      "pred_exterior": -1715.6850000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": -44.16000000000014,
+      "pred_interior": -3431.37,
+      "pred_exterior": -1411.0500000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 1174.38,
+      "pred_interior": -2822.1,
+      "pred_exterior": -801.7800000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": 1.1368683772161603e-13,
+      "pred_interior": -4393.4025,
+      "pred_exterior": -1362.9225000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": 230.45999999999992,
+      "pred_interior": -4241.085,
+      "pred_exterior": -1210.605,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": 839.7299999999999,
+      "pred_interior": -3936.4500000000003,
+      "pred_exterior": -905.97,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        1
+      ],
+      "tag": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 2058.27,
+      "pred_interior": -3327.1800000000003,
+      "pred_exterior": -296.70000000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": 241.5,
+      "pred_interior": -605.3025,
+      "pred_exterior": -100.2225,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": 546.135,
+      "pred_interior": -452.985,
+      "pred_exterior": 52.095,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": 1155.405,
+      "pred_interior": -148.35000000000002,
+      "pred_exterior": 356.73,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 2373.945,
+      "pred_interior": 460.91999999999996,
+      "pred_exterior": 966.0,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": 520.0875,
+      "pred_interior": -857.8425,
+      "pred_exterior": 152.3175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 924.9449999999999,
+      "pred_interior": -705.525,
+      "pred_exterior": 304.635,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 1534.215,
+      "pred_interior": -400.89,
+      "pred_exterior": 609.27,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 2752.755,
+      "pred_interior": 208.38,
+      "pred_exterior": 1218.54,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": 609.27,
+      "pred_interior": -1110.3825000000002,
+      "pred_exterior": 404.8575,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": 1103.31,
+      "pred_interior": -958.065,
+      "pred_exterior": 557.175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 1913.0249999999999,
+      "pred_interior": -653.4300000000001,
+      "pred_exterior": 861.81,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 3131.565,
+      "pred_interior": -44.16000000000008,
+      "pred_exterior": 1471.08,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": 609.27,
+      "pred_interior": -1362.9225000000001,
+      "pred_exterior": 657.3975,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": 1218.54,
+      "pred_interior": -1210.605,
+      "pred_exterior": 809.7149999999999,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 2143.485,
+      "pred_interior": -905.97,
+      "pred_exterior": 1114.35,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 3510.375,
+      "pred_interior": -296.70000000000005,
+      "pred_exterior": 1723.62,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": 609.27,
+      "pred_interior": -1868.0025,
+      "pred_exterior": 1162.4775,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": 1218.54,
+      "pred_interior": -1715.685,
+      "pred_exterior": 1314.795,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": 2396.025,
+      "pred_interior": -1411.05,
+      "pred_exterior": 1619.43,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 4223.835,
+      "pred_interior": -801.78,
+      "pred_exterior": 2228.7,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -263.58,
+      "pred_interior": -1110.3825000000002,
+      "pred_exterior": -605.3025,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": 41.05500000000005,
+      "pred_interior": -958.065,
+      "pred_exterior": -452.985,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": 650.325,
+      "pred_interior": -653.4300000000001,
+      "pred_exterior": -148.35000000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 1868.8650000000002,
+      "pred_interior": -44.16000000000008,
+      "pred_exterior": 460.91999999999996,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": 178.36499999999998,
+      "pred_interior": -1362.9225000000001,
+      "pred_exterior": -352.7625,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 483.0,
+      "pred_interior": -1210.605,
+      "pred_exterior": -200.445,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 1092.27,
+      "pred_interior": -905.97,
+      "pred_exterior": 104.19,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 2310.81,
+      "pred_interior": -296.70000000000005,
+      "pred_exterior": 713.46,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": 419.865,
+      "pred_interior": -1615.4625,
+      "pred_exterior": -100.22249999999997,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": 861.81,
+      "pred_interior": -1463.145,
+      "pred_exterior": 52.09500000000003,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 1471.08,
+      "pred_interior": -1158.51,
+      "pred_exterior": 356.73,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 2689.62,
+      "pred_interior": -549.24,
+      "pred_exterior": 966.0,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": 483.0,
+      "pred_interior": -1868.0025,
+      "pred_exterior": 152.3175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": 1040.175,
+      "pred_interior": -1715.685,
+      "pred_exterior": 304.635,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 1849.8899999999999,
+      "pred_interior": -1411.05,
+      "pred_exterior": 609.27,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 3068.43,
+      "pred_interior": -801.78,
+      "pred_exterior": 1218.54,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": 509.0475,
+      "pred_interior": -2373.0825,
+      "pred_exterior": 657.3975,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": 1218.54,
+      "pred_interior": -2220.7650000000003,
+      "pred_exterior": 809.715,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": 2206.62,
+      "pred_interior": -1916.13,
+      "pred_exterior": 1114.35,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 3826.0499999999997,
+      "pred_interior": -1306.8600000000001,
+      "pred_exterior": 1723.62,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -694.485,
+      "pred_interior": -1615.4625,
+      "pred_exterior": -1110.3825000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": -464.0250000000001,
+      "pred_interior": -1463.145,
+      "pred_exterior": -958.065,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": 145.245,
+      "pred_interior": -1158.51,
+      "pred_exterior": -653.4300000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 1363.7850000000003,
+      "pred_interior": -549.24,
+      "pred_exterior": -44.16000000000008,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -252.54,
+      "pred_interior": -1868.0025,
+      "pred_exterior": -857.8425000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -22.08000000000007,
+      "pred_interior": -1715.685,
+      "pred_exterior": -705.5250000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 587.19,
+      "pred_interior": -1411.05,
+      "pred_exterior": -400.8900000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 1805.73,
+      "pred_interior": -801.78,
+      "pred_exterior": 208.37999999999988,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": 152.3175,
+      "pred_interior": -2120.5425,
+      "pred_exterior": -605.3025,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": 419.86499999999995,
+      "pred_interior": -1968.2250000000001,
+      "pred_exterior": -452.985,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 1029.135,
+      "pred_interior": -1663.5900000000001,
+      "pred_exterior": -148.35000000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 2247.6749999999997,
+      "pred_interior": -1054.3200000000002,
+      "pred_exterior": 460.91999999999996,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": 330.68249999999995,
+      "pred_interior": -2373.0825,
+      "pred_exterior": -352.76250000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": 798.675,
+      "pred_interior": -2220.7650000000003,
+      "pred_exterior": -200.44500000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 1407.945,
+      "pred_interior": -1916.13,
+      "pred_exterior": 104.18999999999994,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 2626.4849999999997,
+      "pred_interior": -1306.8600000000001,
+      "pred_exterior": 713.4599999999999,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": 419.86499999999995,
+      "pred_interior": -2878.1625,
+      "pred_exterior": 152.3175,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": 1029.135,
+      "pred_interior": -2725.8450000000003,
+      "pred_exterior": 304.635,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": 2017.215,
+      "pred_interior": -2421.21,
+      "pred_exterior": 609.27,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 3384.1049999999996,
+      "pred_interior": -1811.94,
+      "pred_exterior": 1218.54,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -1036.2075,
+      "pred_interior": -2120.5425,
+      "pred_exterior": -1615.4625,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": -969.105,
+      "pred_interior": -1968.2250000000001,
+      "pred_exterior": -1463.145,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": -359.835,
+      "pred_interior": -1663.5900000000001,
+      "pred_exterior": -1158.51,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": 858.7050000000004,
+      "pred_interior": -1054.3200000000002,
+      "pred_exterior": -549.24,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -631.3499999999999,
+      "pred_interior": -2373.0825,
+      "pred_exterior": -1362.9225000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -527.16,
+      "pred_interior": -2220.7650000000003,
+      "pred_exterior": -1210.605,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": 82.1100000000001,
+      "pred_interior": -1916.13,
+      "pred_exterior": -905.97,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 1300.65,
+      "pred_interior": -1306.8600000000001,
+      "pred_exterior": -296.70000000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": -226.49249999999995,
+      "pred_interior": -2625.6225,
+      "pred_exterior": -1110.3824999999997,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": -85.21499999999997,
+      "pred_interior": -2473.3050000000003,
+      "pred_exterior": -958.0649999999998,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": 524.0550000000001,
+      "pred_interior": -2168.67,
+      "pred_exterior": -653.4299999999998,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 1742.5949999999998,
+      "pred_interior": -1559.4,
+      "pred_exterior": -44.159999999999854,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": 152.3175,
+      "pred_interior": -2878.1625,
+      "pred_exterior": -857.8425,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": 356.72999999999996,
+      "pred_interior": -2725.8450000000003,
+      "pred_exterior": -705.525,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": 966.0,
+      "pred_interior": -2421.21,
+      "pred_exterior": -400.89,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 2184.54,
+      "pred_interior": -1811.94,
+      "pred_exterior": 208.38,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": 330.68250000000006,
+      "pred_interior": -3383.2425,
+      "pred_exterior": -352.76249999999993,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": 839.73,
+      "pred_interior": -3230.925,
+      "pred_exterior": -200.44499999999994,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": 1723.62,
+      "pred_interior": -2926.29,
+      "pred_exterior": 104.19000000000005,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 2942.16,
+      "pred_interior": -2317.02,
+      "pred_exterior": 713.46,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -1486.0875,
+      "pred_interior": -3130.7025,
+      "pred_exterior": -2625.6225,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": -1819.875,
+      "pred_interior": -2978.385,
+      "pred_exterior": -2473.3050000000003,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 2.0,
+      "margin": -1369.9950000000001,
+      "pred_interior": -2673.75,
+      "pred_exterior": -2168.67,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 0.5,
+      "C_factor": 4.0,
+      "margin": -151.4549999999997,
+      "pred_interior": -2064.48,
+      "pred_exterior": -1559.4,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -1140.3975,
+      "pred_interior": -3383.2425,
+      "pred_exterior": -2373.0825,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -1388.97,
+      "pred_interior": -3230.925,
+      "pred_exterior": -2220.7650000000003,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 2.0,
+      "margin": -928.0500000000002,
+      "pred_interior": -2926.29,
+      "pred_exterior": -1916.13,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 4.0,
+      "margin": 290.49,
+      "pred_interior": -2317.02,
+      "pred_exterior": -1306.8600000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 0.5,
+      "margin": -798.675,
+      "pred_interior": -3635.7825,
+      "pred_exterior": -2120.5425,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 1.0,
+      "margin": -947.0249999999999,
+      "pred_interior": -3483.465,
+      "pred_exterior": -1968.2250000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 2.0,
+      "margin": -486.1050000000001,
+      "pred_interior": -3178.83,
+      "pred_exterior": -1663.5900000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.5,
+      "C_factor": 4.0,
+      "margin": 732.435,
+      "pred_interior": -2569.56,
+      "pred_exterior": -1054.3200000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": -456.9525000000001,
+      "pred_interior": -3888.3224999999998,
+      "pred_exterior": -1868.0025,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": -505.08,
+      "pred_interior": -3736.005,
+      "pred_exterior": -1715.6850000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 2.0,
+      "margin": -44.16000000000014,
+      "pred_interior": -3431.37,
+      "pred_exterior": -1411.0500000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 2.0,
+      "C_factor": 4.0,
+      "margin": 1174.38,
+      "pred_interior": -2822.1,
+      "pred_exterior": -801.7800000000002,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 0.5,
+      "margin": 152.3175,
+      "pred_interior": -4393.4025,
+      "pred_exterior": -1362.9225000000001,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 1.0,
+      "margin": 304.635,
+      "pred_interior": -4241.085,
+      "pred_exterior": -1210.605,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 2.0,
+      "margin": 839.7299999999999,
+      "pred_interior": -3936.4500000000003,
+      "pred_exterior": -905.97,
+      "match": false
+    },
+    {
+      "removal": [
+        1,
+        0
+      ],
+      "tag": "exterior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 3.0,
+      "C_factor": 4.0,
+      "margin": 2058.27,
+      "pred_interior": -3327.1800000000003,
+      "pred_exterior": -296.70000000000005,
+      "match": false
+    }
+  ]
+}

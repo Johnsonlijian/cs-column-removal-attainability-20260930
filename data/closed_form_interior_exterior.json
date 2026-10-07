@@ -1,0 +1,192 @@
+{
+  "rows": [
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": 178.36499999999998,
+      "M_int_minus_M_det": 0.0,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 483.0,
+      "M_int_minus_M_det": 0.0,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.25,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -68.65500000000006,
+      "M_int_minus_M_det": -31.5675,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.25,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 230.4599999999999,
+      "M_int_minus_M_det": -31.5675,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -289.62750000000005,
+      "M_int_minus_M_det": -63.135,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.5,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -22.08000000000007,
+      "M_int_minus_M_det": -63.135,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -731.5725,
+      "M_int_minus_M_det": -126.27,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -527.16,
+      "M_int_minus_M_det": -126.27,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.25,
+      "C_factor": 0.5,
+      "margin": -68.65500000000006,
+      "M_int_minus_M_det": 31.5675,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 1.25,
+      "C_factor": 1.0,
+      "margin": 230.4599999999999,
+      "M_int_minus_M_det": 31.5675,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": -731.5725,
+      "M_int_minus_M_det": 126.27,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": -527.16,
+      "M_int_minus_M_det": 126.27,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 0.5,
+      "margin": 52.09499999999997,
+      "M_int_minus_M_det": 0.0,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 2.0,
+      "M_int_factor": 2.0,
+      "C_factor": 1.0,
+      "margin": 356.72999999999996,
+      "M_int_minus_M_det": 0.0,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -1192.4924999999998,
+      "M_int_minus_M_det": -252.54,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 3.0,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": -1463.1450000000002,
+      "M_int_minus_M_det": -252.54,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 0.5,
+      "margin": -263.58,
+      "M_int_minus_M_det": 63.135,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 0.5,
+      "M_int_factor": 1.0,
+      "C_factor": 1.0,
+      "margin": 41.05500000000005,
+      "M_int_minus_M_det": 63.135,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 0.5,
+      "margin": -263.58,
+      "M_int_minus_M_det": -63.135,
+      "match": false
+    },
+    {
+      "kind": "interior",
+      "M_det_factor": 1.0,
+      "M_int_factor": 0.5,
+      "C_factor": 1.0,
+      "margin": 41.05500000000005,
+      "M_int_minus_M_det": -63.135,
+      "match": false
+    },
+    {
+      "kind": "exterior",
+      "reference": 483.0,
+      "raised_detached": -527.16,
+      "raised_intact": 1040.175,
+      "delta_detached": -1010.16,
+      "delta_intact": 557.175
+    }
+  ]
+}
