@@ -1,3 +1,25 @@
-numpy>=1.26
-scipy>=1.11
-matplotlib>=3.8
+# Pinned environment for the TOP_REBUILD_CS_20260930 reproducibility package.
+#
+# These are the versions that produced the frozen artifacts in data/ and the
+# figure masters in figures/. The generator provenance recorded inside
+# data/nonlinear_pushdown.json is Python 3.11.15 with NumPy 2.2.6, which matches
+# the interpreter used for the frozen run.
+#
+# scripts/algorithm_benchmark.py reports wall-clock timings. Those are host- and
+# load-dependent and will differ on another machine; the objective-value gaps it
+# records are deterministic and must reproduce exactly.
+
+numpy==2.2.6
+scipy==1.16.3
+matplotlib==3.11.0
+pymupdf==1.28.2
+pandas==2.3.3
+scikit-learn==1.9.0
+networkx==3.6.1
+
+# Optional, only needed to regenerate data/public_paired_opensees.json and the
+# nonlinear public-control lane. The committed JSON was produced under this
+# build; a different OpenSeesPy build may assemble the zero-length rotational
+# hinge differently in this topology, in which case that lane is not part of
+# the mandatory reproduction chain.
+openseespy==3.7.0.3
